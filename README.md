@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+Flask+%7C+PostgreSQL;Building+real-world+business+systems;Dockerized+Backend+Workflows;Always+Learning,+Always+Improving&center=true&width=900&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+Flask+%7C+PostgreSQL;Business+Management+Systems;Partner+Self-Quotation+Platforms;Dockerized+Backend+Workflows;Always+Learning,+Always+Improving&center=true&width=950&height=40">
 </p>
 
 ---
@@ -54,8 +54,8 @@ My goal is to contribute to real-world backend systems while growing through pro
 
 ## 🚀 Backend Projects
 
-A compact overview of the systems I have built, adapted, or am preparing as public backend projects.  
-I focus on **real-world workflows, relational database design, Docker-based setup, maintainable backend structure, and practical business logic**.
+A compact overview of the systems I have built, adapted, or prepared as public backend projects.  
+I focus on **real-world workflows, relational database design, Docker-based setup, maintainable backend structure, pricing logic, role-based access, and practical business automation**.
 
 <table>
   <tr>
@@ -127,6 +127,94 @@ This command applies migrations, loads required initial data, creates default us
 </td>
 <td width="50%" valign="top">
 
+### 🔹 S7 Partners
+
+**Partner Self-Quotation & Order Management Portal**
+
+Django-based partner portal where commercial partners can browse enabled products, generate self-quotations, preview automatic pricing, submit orders, manage stock, and receive email notifications after staff review.
+
+<p>
+  <a href="https://github.com/FrancoSoilan-DEV/s7-partners">
+    <img src="https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+**Focus:**  
+Self-quotation · Pricing rules · Order approvals · Stock tracking · Email notifications · i18n
+
+<details>
+  <summary><strong>View project details</strong></summary>
+
+<br>
+
+**What it demonstrates:**
+
+- Django-based partner portal with separate partner and admin areas
+- Custom Django user model with partner-specific business fields
+- Automatic quotation and pricing preview workflow
+- Order approval/rejection flow for staff users
+- Stock updates after accepted orders
+- Email notifications using Brevo SMTP
+- Internationalization with Spanish and English support
+- Docker Compose setup for development, test, and production-style environments
+- Gunicorn + Nginx test/production deployment flow
+- Cloudinary integration for media storage
+- Django REST Framework usage
+
+**Main business workflow:**
+
+1. The company creates and manages partner users.
+2. Staff configures products, regions, currencies, client types, and pricing rules.
+3. Partners log in with assigned credentials.
+4. Partners browse the catalog and select products.
+5. The system calculates totals, discounts, multiplicators, and final prices.
+6. Partners submit orders or quotations.
+7. Staff users review pending orders.
+8. Staff accepts or rejects orders.
+9. Partners receive email notifications.
+10. Stock and historical records are updated when orders are accepted.
+
+**Main technologies:**
+
+- Python 3.12
+- Django 5.2
+- Django REST Framework
+- PostgreSQL 15
+- Docker and Docker Compose
+- Gunicorn
+- Nginx
+- WhiteNoise
+- Redis
+- Cloudinary
+- django-rosetta
+- Brevo SMTP
+- Spanish and English internationalization
+
+**Clone the repository:**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/s7-partners.git
+```
+
+**Development command:**
+
+```bash
+docker compose -f docker-compose.dev.yml up --build
+```
+
+Open locally:
+
+```text
+http://localhost:7000
+```
+
+</details>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🧾 Inventory & Backup System
 
 **Asset and backup tracking workflow**
@@ -170,8 +258,6 @@ The public version will focus on a cleaner API-based structure with:
 </details>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🛠️ Technical Service System
@@ -217,50 +303,6 @@ The public version will focus on:
 </details>
 
 </td>
-<td width="50%" valign="top">
-
-### 📄 Quotation System API
-
-**Client and supplier quotation workflow**
-
-API-oriented system for managing quotation requests between clients and suppliers.
-
-<img src="https://img.shields.io/badge/Status-Planned-lightgrey?style=for-the-badge" />
-
-**Focus:**  
-REST APIs · Quotation requests · Supplier responses · Validations · Backend logic
-
-<details>
-  <summary><strong>View project details</strong></summary>
-
-<br>
-
-**Technical focus:**
-
-- Client quotation request flow
-- Supplier response workflow
-- Request status tracking
-- Backend validations
-- RESTful endpoint design
-- Environment-based configuration
-- Deployment-ready project structure
-
-**Planned public version:**
-
-`quotation-system-api`
-
-The public version will focus on:
-
-- FastAPI or Django REST-style backend
-- PostgreSQL database
-- Docker Compose setup
-- API documentation
-- Clean endpoint structure
-- Practical business use case
-
-</details>
-
-</td>
 </tr>
 </table>
 
@@ -270,15 +312,17 @@ The public version will focus on:
 
 I have worked on internal business systems and backend modules focused on real operational needs:
 
-- Designed relational database structures for **asset, inventory, backup, employee, and service tracking**
+- Designed relational database structures for **asset, inventory, backup, employee, partner, order, stock, and service tracking**
 - Developed internal systems using **Django**, forms, templates, class-based views, function-based views, permissions, and administrative workflows
+- Built partner-facing workflows for **self-quotation, order submission, pricing previews, stock management, and order history**
 - Implemented business rules for **technical service management**, including status control, payment tracking, and historical reporting
 - Built workflows for **employee gate access control**, check-in/check-out records, and historical tracking
 - Created modules for **weekly backup management**, including backup states, weekly reset logic, and duplicate prevention
 - Worked on **inventory and equipment management**, including equipment categories, maintenance calendars, and status tracking
-- Created quotation-related features for **clients and suppliers**, including structured request and response flows
-- Organized backend logic across models, views, templates, forms, utilities, and management commands
-- Worked with data consistency, validations, user-facing forms, dashboards, and internal reporting needs
+- Created quotation-related features for **clients, suppliers, and commercial partners**, including structured request and response flows
+- Implemented pricing logic involving **client types, quantity-based multiplicators, special user multiplicators, discounts, regions, and currencies**
+- Organized backend logic across models, views, templates, forms, utilities, APIs, and management commands
+- Worked with data consistency, validations, user-facing forms, dashboards, analytics, and internal reporting needs
 
 ---
 
@@ -296,6 +340,7 @@ I have worked on internal business systems and backend modules focused on real o
 
 - Python
 - Django
+- Django REST Framework
 - FastAPI
 - Flask
 - REST API development
@@ -330,7 +375,7 @@ I have worked on internal business systems and backend modules focused on real o
 ### DevOps & Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,postman,bash,linux" />
+  <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,postman,bash,linux,nginx" />
 </p>
 
 - Docker
@@ -341,6 +386,8 @@ I have worked on internal business systems and backend modules focused on real o
 - Postman
 - Bash basics
 - Linux basics
+- Gunicorn
+- Nginx
 - Environment configuration with `.env`
 
 </td>
@@ -359,6 +406,7 @@ I have worked on internal business systems and backend modules focused on real o
 - Responsive interfaces
 - Frontend integration with backend systems
 - Django templates
+- Internationalized UI basics
 
 </td>
 </tr>
@@ -374,12 +422,14 @@ I am focused on building backend projects with practices closer to real producti
 - Environment-based configuration using `.env` files
 - PostgreSQL-backed application design
 - Structured backend architecture for maintainability
-- Clear separation of models, views, forms, business rules, and configuration
+- Clear separation of models, views, forms, APIs, business rules, and configuration
 - Custom Django management commands for repeatable setup
 - Initial data seeding for predictable local environments
 - API testing and validation with **Postman**
-- Authentication, permissions, groups, and protected workflows
-- Deployment-ready project structure and configuration
+- Authentication, permissions, groups, staff roles, and protected workflows
+- Gunicorn/Nginx-based deployment flow
+- Static files handling with WhiteNoise
+- Public repository safety with `.env.example` and secret isolation
 - Git-based collaboration using **Git, GitHub, and GitLab**
 
 ---
@@ -391,18 +441,20 @@ I enjoy backend development because it involves designing systems, structuring d
 I am especially interested in:
 
 - Designing clean and maintainable data models
-- Building APIs that are easy to understand and consume
+- Building APIs and backend workflows that are easy to understand and consume
 - Keeping business logic organized and reusable
 - Improving internal tools and administrative systems
-- Connecting databases, services, and user workflows
+- Connecting databases, services, users, permissions, and business workflows
 - Writing code that is practical, readable, and easier to improve over time
 - Creating systems that can be initialized and reproduced with clear setup commands
+- Turning real operational processes into structured software systems
 
 ---
 
 ## 📚 Currently Learning
 
 - Advanced Django development
+- Django REST Framework best practices
 - API design best practices
 - Docker-based development workflows
 - Scalable database structures
@@ -410,6 +462,7 @@ I am especially interested in:
 - Production-ready web applications
 - Better testing practices
 - Backend project documentation
+- Deployment workflows with Gunicorn and Nginx
 
 ---
 
@@ -420,6 +473,9 @@ I am especially interested in:
 - Admin dashboards
 - Database-driven applications
 - Authentication systems
+- Partner portals
+- Self-service quotation systems
+- Inventory and stock management systems
 - Automation tools
 - Internal business systems
 - Dockerized web platforms
