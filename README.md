@@ -12,3 +12,6 @@
 
 
 <h2><img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px"> Habilidades</h2>
+
+
+<a href="#"><img width="85px" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="85px"/></a>
