@@ -40,95 +40,165 @@ Beyond coding, I love **coffee**, **cats**, and continuously learning new tools 
 
 ## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="27px"> Tech Stack
 
-### Backend Development
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask" />
-</p>
-
-- Python
-- Django
-- FastAPI
-- Flask
-- REST API development
-- Backend architecture
-- API testing with Postman
-
-### Databases
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis" />
-</p>
-
-- PostgreSQL
-- MySQL
-- Redis
-- Relational database design
-- Query optimization basics
-
-### DevOps & Tools
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,postman,bash" />
-</p>
-
-- Docker
-- Git & GitHub
-- Postman
-- Linux basics
-- Environment configuration
-- API documentation and testing
-
-### Frontend Development
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
-</p>
-
-- HTML
-- CSS
-- JavaScript
-- TypeScript
-- Responsive web interfaces
-- Modern UI structure
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">Backend Development</h3>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask" />
+      </p>
+      <p align="center">
+        Python · Django · FastAPI · Flask<br>
+        REST APIs · Backend Architecture · API Testing
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Databases</h3>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=postgres,mysql,redis" />
+      </p>
+      <p align="center">
+        PostgreSQL · MySQL · Redis<br>
+        Relational Design · Query Optimization Basics
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">DevOps & Tools</h3>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=docker,git,github,postman,bash" />
+      </p>
+      <p align="center">
+        Docker · Git · GitHub · Postman · Bash<br>
+        Linux Basics · Environment Configuration
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Frontend Development</h3>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
+      </p>
+      <p align="center">
+        HTML · CSS · JavaScript · TypeScript<br>
+        Responsive Interfaces · Modern UI Structure
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="27px"> Soft Skills
+## <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="27px"> Soft Skills
 
-- Strong problem-solving mindset
-- Teamwork and collaboration
-- Clear communication
-- Fast learner
-- Attention to detail
-- Responsibility and consistency
-- Passion for continuous improvement
-- Curiosity for technology and software architecture
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <strong>Problem Solving</strong><br>
+      Analytical mindset for breaking down complex challenges.
+    </td>
+    <td align="center" width="33%">
+      <strong>Teamwork</strong><br>
+      Comfortable collaborating, sharing ideas, and learning from others.
+    </td>
+    <td align="center" width="33%">
+      <strong>Communication</strong><br>
+      Clear, respectful, and focused communication.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <strong>Fast Learner</strong><br>
+      Always improving and adapting to new technologies.
+    </td>
+    <td align="center" width="33%">
+      <strong>Attention to Detail</strong><br>
+      I care about clean, maintainable, and reliable solutions.
+    </td>
+    <td align="center" width="33%">
+      <strong>Consistency</strong><br>
+      Responsible, disciplined, and committed to continuous growth.
+    </td>
+  </tr>
+</table>
 
 ---
 
-## <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="27px"> Currently Learning
+## <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="27px"> Currently Learning
 
-- Advanced backend development
-- API design best practices
-- Docker-based development workflows
-- Scalable database structures
-- Clean code and software architecture
-- Production-ready web applications
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <strong>Advanced Backend</strong><br>
+      Improving my skills in scalable backend development.
+    </td>
+    <td align="center" width="33%">
+      <strong>API Design</strong><br>
+      Learning better practices for clean and reliable REST APIs.
+    </td>
+    <td align="center" width="33%">
+      <strong>Docker Workflows</strong><br>
+      Building better local and production-ready environments.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <strong>Database Design</strong><br>
+      Studying scalable relational database structures.
+    </td>
+    <td align="center" width="33%">
+      <strong>Clean Code</strong><br>
+      Writing code that is readable, reusable, and easy to maintain.
+    </td>
+    <td align="center" width="33%">
+      <strong>Software Architecture</strong><br>
+      Understanding how professional systems are designed.
+    </td>
+  </tr>
+</table>
 
 ---
 
-## <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="27px"> What I Like to Build
+## <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="27px"> What I Like to Build
 
-I enjoy working on projects that involve:
-
-- Backend systems
-- REST APIs
-- Admin dashboards
-- Database-driven applications
-- Authentication systems
-- Automation tools
-- Web platforms with real-world use cases
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <strong>Backend Systems</strong><br>
+      Reliable server-side applications.
+    </td>
+    <td align="center" width="25%">
+      <strong>REST APIs</strong><br>
+      Clean APIs for real-world applications.
+    </td>
+    <td align="center" width="25%">
+      <strong>Admin Dashboards</strong><br>
+      Interfaces for managing data and workflows.
+    </td>
+    <td align="center" width="25%">
+      <strong>Data-driven Apps</strong><br>
+      Applications powered by structured databases.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <strong>Authentication</strong><br>
+      User access and permission systems.
+    </td>
+    <td align="center" width="25%">
+      <strong>Automation Tools</strong><br>
+      Scripts and tools that simplify repetitive work.
+    </td>
+    <td align="center" width="25%">
+      <strong>Web Platforms</strong><br>
+      Practical platforms with real use cases.
+    </td>
+    <td align="center" width="25%">
+      <strong>Backend Integrations</strong><br>
+      Connecting services, APIs, and databases.
+    </td>
+  </tr>
+</table>
 
 ---
 
