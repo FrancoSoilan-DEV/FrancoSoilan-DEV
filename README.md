@@ -40,6 +40,10 @@ Beyond coding, I love **coffee**, **cats**, and continuously learning new tools 
 
 ## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="27px"> Tech Stack
 
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
 ### Backend Development
 
 <p align="left">
@@ -54,6 +58,9 @@ Beyond coding, I love **coffee**, **cats**, and continuously learning new tools 
 - Backend architecture
 - API testing with Postman
 
+</td>
+<td width="50%" valign="top">
+
 ### Databases
 
 <p align="left">
@@ -65,6 +72,11 @@ Beyond coding, I love **coffee**, **cats**, and continuously learning new tools 
 - Redis
 - Relational database design
 - Query optimization basics
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### DevOps & Tools
 
@@ -79,6 +91,9 @@ Beyond coding, I love **coffee**, **cats**, and continuously learning new tools 
 - Environment configuration
 - API documentation and testing
 
+</td>
+<td width="50%" valign="top">
+
 ### Frontend Development
 
 <p align="left">
@@ -92,9 +107,13 @@ Beyond coding, I love **coffee**, **cats**, and continuously learning new tools 
 - Responsive web interfaces
 - Modern UI structure
 
+</td>
+</tr>
+</table>
+
 ---
 
-## <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="27px"> Soft Skills
+## 🧠 Soft Skills
 
 - Strong problem-solving mindset
 - Teamwork and collaboration
@@ -107,7 +126,7 @@ Beyond coding, I love **coffee**, **cats**, and continuously learning new tools 
 
 ---
 
-## <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="27px"> Currently Learning
+## 📚 Currently Learning
 
 - Advanced backend development
 - API design best practices
@@ -118,7 +137,7 @@ Beyond coding, I love **coffee**, **cats**, and continuously learning new tools 
 
 ---
 
-## <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="27px"> What I Like to Build
+## 🛠️ What I Like to Build
 
 I enjoy working on projects that involve:
 
@@ -132,7 +151,7 @@ I enjoy working on projects that involve:
 
 ---
 
-## <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="27px"> Connect With Me
+## 🌐 Connect With Me
 
 <p align="left">
   <a href="mailto:TU_EMAIL_AQUI">
