@@ -1,28 +1,171 @@
 <div align="center">
-   <img width=100% src=https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" />
 </div>
-<h1 align="center">Hi , I'm Franco Soilan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"><div></div></h1>
-<p align="left">
- <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+Profile!&center=true&width=360&height=30">
-   <img 
-  src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" 
-  alt="illustration of a computer" 
-  min-width="400px" 
-  max-width="400px" 
-  width="400px" 
-  align="right" 
-/>
+
+<h1 align="center">
+  Hi, I'm Franco Jeremias Soilan Lopez 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" />
+</h1>
+
+<h3 align="center">
+  Backend-focused Web Developer | Computer Science Student | Passionate about building reliable systems
+</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+Profile!;Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+Docker;Always+Learning,+Always+Building&center=true&width=700&height=40">
 </p>
 
+---
 
-- Know/Using
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px"> About Me
 
-| [<img src="https://raw.githubusercontent.com/github/explore/cfd26557025b2ccaa2d3d25f3e518e29ebea05c5/topics/v/v.png" alt="v logo" width="24">](https://vlang.io/)  | [<img src="https://raw.githubusercontent.com/Delta456/Delta456/master/img/golang.png" alt="go logo" width="38">](https://golang.org/)  | [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" alt="cpp logo" width="24">](https://isocpp.org/)  |  [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png" alt="c logo" width="28">](http://www.open-std.org/jtc1/sc22/wg14/) |  [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python logo" width="28">](https://www.python.org/) | [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png" alt="bash logo" width="28">](https://www.gnu.org/software/bash/)  |
-|---|---|---|---|---|---|
+<img 
+  src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" 
+  alt="Computer illustration" 
+  width="380px" 
+  align="right"
+/>
 
+I'm **Franco Jeremias Soilan Lopez**, a Computer Science student with a strong passion for **web development**, especially **backend engineering**.
 
+I enjoy designing clean, scalable, and reliable systems using technologies such as **Python, Django, FastAPI, PostgreSQL, Redis, Docker, and REST APIs**. I like understanding how things work behind the scenes, from database design to API architecture and deployment workflows.
 
-<h2><img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px"> Habilidades</h2>
+Currently, I am studying **Bachelor's Degree in Computer Science with an emphasis in Systems Analysis** at the **National University of Asunción**, Faculty of Polytechnic.
 
+Beyond coding, I love **coffee**, **cats**, and continuously learning new tools that help me become a better developer.
 
+<br clear="right"/>
 
+---
+
+## 🚀 Tech Stack
+
+### Backend Development
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask" />
+</p>
+
+- Python
+- Django
+- FastAPI
+- Flask
+- REST API development
+- Backend architecture
+- API testing with Postman
+
+### Databases
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis" />
+</p>
+
+- PostgreSQL
+- MySQL
+- Redis
+- Relational database design
+- Query optimization basics
+
+### DevOps & Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,postman,bash" />
+</p>
+
+- Docker
+- Git & GitHub
+- Postman
+- Linux basics
+- Environment configuration
+- API documentation and testing
+
+### Frontend Development
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
+</p>
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- Responsive web interfaces
+- Modern UI structure
+
+---
+
+## 🧠 Soft Skills
+
+- Strong problem-solving mindset
+- Teamwork and collaboration
+- Clear communication
+- Fast learner
+- Attention to detail
+- Responsibility and consistency
+- Passion for continuous improvement
+- Curiosity for technology and software architecture
+
+---
+
+## 📚 Currently Learning
+
+- Advanced backend development
+- API design best practices
+- Docker-based development workflows
+- Scalable database structures
+- Clean code and software architecture
+- Production-ready web applications
+
+---
+
+## 🛠️ What I Like to Build
+
+I enjoy working on projects that involve:
+
+- Backend systems
+- REST APIs
+- Admin dashboards
+- Database-driven applications
+- Authentication systems
+- Automation tools
+- Web platforms with real-world use cases
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO_DE_GITHUB&show_icons=true&theme=tokyonight&hide_border=true" />
+
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO_DE_GITHUB&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="mailto:TU_EMAIL_AQUI">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/TU_LINKEDIN_AQUI">
+    <img src="https://img.shields.io/badge/LinkedIn-Franco%20Soilan-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="https://github.com/TU_USUARIO_DE_GITHUB">
+    <img src="https://img.shields.io/badge/GitHub-Franco%20Soilan-black?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<div align="center">
+  <h3>☕ Fueled by coffee, curiosity, and a love for backend development 🐱</h3>
+</div>
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer" />
+</div>
