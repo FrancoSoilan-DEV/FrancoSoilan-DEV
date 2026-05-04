@@ -1,75 +1,100 @@
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px"> Tech Stack
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" />
+</div>
+
+<h1 align="center">
+  Hi, I'm Franco Jeremias Soilan Lopez 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" />
+</h1>
+
+<h3 align="center">
+  Backend-focused Web Developer | Computer Science Student | Passionate about building reliable systems
+</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+Profile!;Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+Docker;Always+Learning,+Always+Building&center=true&width=700&height=40">
+</p>
+
+---
+
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px"> About Me
 
 <img 
-  src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" 
-  alt="Coding gif" 
-  width="360px" 
+  src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" 
+  alt="Computer illustration" 
+  width="380px" 
   align="right"
 />
 
-I work mainly with backend technologies, databases, APIs, and modern development tools.  
-My goal is to build clean, scalable, and maintainable web applications.
+I'm **Franco Jeremias Soilan Lopez**, a Computer Science student with a strong passion for **web development**, especially **backend engineering**.
 
-### Backend Development
+I enjoy designing clean, scalable, and reliable systems using technologies such as **Python, Django, FastAPI, PostgreSQL, Redis, Docker, and REST APIs**. I like understanding how things work behind the scenes, from database design to API architecture and deployment workflows.
 
-| Python | Django | FastAPI | Flask |
-|---|---|---|---|
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="48"> | <img src="https://skillicons.dev/icons?i=flask" width="48"> |
+Currently, I am studying **Bachelor's Degree in Computer Science with an emphasis in Systems Analysis** at the **National University of Asunción**, Faculty of Polytechnic.
 
-- REST API development
-- Backend architecture
-- API testing with Postman
-- Authentication and authorization basics
-- Clean and reusable code structure
-
-### Databases
-
-| PostgreSQL | MySQL | Redis |
-|---|---|---|
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="48"> |
-
-- Relational database design
-- Query optimization basics
-- Data modeling
-- Cache usage with Redis
-
-### DevOps & Tools
-
-| Docker | Git | GitHub | Postman | Bash |
-|---|---|---|---|---|
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48"> | <img src="https://skillicons.dev/icons?i=github" width="48"> | <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="48"> |
-
-- Docker-based development environments
-- Version control with Git and GitHub
-- Environment configuration
-- API documentation and testing
-- Basic Linux workflow
-
-### Frontend Development
-
-| HTML5 | CSS3 | JavaScript | TypeScript |
-|---|---|---|---|
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="48"> |
-
-- Responsive web interfaces
-- Modern HTML structure
-- CSS styling and layout
-- Interactive interfaces with JavaScript and TypeScript
+Beyond coding, I love **coffee**, **cats**, and continuously learning new tools that help me become a better developer.
 
 <br clear="right"/>
 
 ---
 
-## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="28px"> Soft Skills
+## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="27px"> Tech Stack
 
-<img 
-  src="https://raw.githubusercontent.com/rafaballerini/rafaballerini/main/assets/code.gif" 
-  alt="Developer animation" 
-  width="330px" 
-  align="right"
-/>
+### Backend Development
 
-Technical skills are important, but I also believe that communication, discipline, and teamwork are essential to building great software.
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask" />
+</p>
+
+- Python
+- Django
+- FastAPI
+- Flask
+- REST API development
+- Backend architecture
+- API testing with Postman
+
+### Databases
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis" />
+</p>
+
+- PostgreSQL
+- MySQL
+- Redis
+- Relational database design
+- Query optimization basics
+
+### DevOps & Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,postman,bash" />
+</p>
+
+- Docker
+- Git & GitHub
+- Postman
+- Linux basics
+- Environment configuration
+- API documentation and testing
+
+### Frontend Development
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
+</p>
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- Responsive web interfaces
+- Modern UI structure
+
+---
+
+## <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="27px"> Soft Skills
 
 - Strong problem-solving mindset
 - Teamwork and collaboration
@@ -80,20 +105,9 @@ Technical skills are important, but I also believe that communication, disciplin
 - Passion for continuous improvement
 - Curiosity for technology and software architecture
 
-<br clear="right"/>
-
 ---
 
-## <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="28px"> Currently Learning
-
-<img 
-  src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" 
-  alt="Night coding animation" 
-  width="330px" 
-  align="right"
-/>
-
-I am constantly improving my skills and learning how to build more professional, scalable, and production-ready applications.
+## <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="27px"> Currently Learning
 
 - Advanced backend development
 - API design best practices
@@ -101,22 +115,12 @@ I am constantly improving my skills and learning how to build more professional,
 - Scalable database structures
 - Clean code and software architecture
 - Production-ready web applications
-- Better development workflows with Git and GitHub
-
-<br clear="right"/>
 
 ---
 
-## <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="28px"> What I Like to Build
+## <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="27px"> What I Like to Build
 
-<img 
-  src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" 
-  alt="Matrix animation" 
-  width="340px" 
-  align="right"
-/>
-
-I enjoy building practical web applications that solve real problems and help users interact with data, systems, and services in a simple way.
+I enjoy working on projects that involve:
 
 - Backend systems
 - REST APIs
@@ -126,20 +130,9 @@ I enjoy building practical web applications that solve real problems and help us
 - Automation tools
 - Web platforms with real-world use cases
 
-<br clear="right"/>
-
 ---
 
-## <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="28px"> Connect With Me
-
-<img 
-  src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/github.svg" 
-  alt="GitHub icon" 
-  width="180px" 
-  align="right"
-/>
-
-I am always open to learning, collaborating, and connecting with people in the tech community.
+## <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="27px"> Connect With Me
 
 <p align="left">
   <a href="mailto:TU_EMAIL_AQUI">
@@ -155,4 +148,12 @@ I am always open to learning, collaborating, and connecting with people in the t
   </a>
 </p>
 
-<br clear="right"/>
+---
+
+<div align="center">
+  <h3>☕ Fueled by coffee, curiosity, and a love for backend development 🐱</h3>
+</div>
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer" />
+</div>
