@@ -58,50 +58,6 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
 </p>
 
-<!-- Estadísticas de GitHub -->
-## 📊 Estadísticas de GitHub
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7"/>
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=TU_USUARIO&theme=algolia&hide_border=true&background=0D1117&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7" alt="GitHub Streak" />
-  </a>
-</p>
-
-<!-- Gráfico de contribuciones -->
-## 📈 Contribuciones
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TU_USUARIO&theme=react-dark&bg_color=0D1117&color=36BCF7&line=36BCF7&point=FFFFFF&hide_border=true" alt="gráfico de contribuciones" />
-</p>
-
-<!-- Proyectos destacados -->
-## 🚀 Proyectos que me enorgullecen
-
-<p align="center">
-  <a href="URL_DE_TU_PROYECTO_1">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=TU_USUARIO&repo=NOMBRE_REPO_1&theme=algolia&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" alt="Proyecto 1" />
-  </a>
-  <a href="URL_DE_TU_PROYECTO_2">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=TU_USUARIO&repo=NOMBRE_REPO_2&theme=algolia&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" alt="Proyecto 2" />
-  </a>
-</p>
-
-<!-- Serpiente comiendo contribuciones (divertido pero profesional) -->
-## 🐍 Mi gráfico de contribuciones cobra vida
-
-<p align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
-
 <!-- Contacto -->
 ## 🌐 Conectemos
 
