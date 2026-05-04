@@ -12,6 +12,10 @@
 </h3>
 
 <p align="center">
+  <strong>Backend developer with experience building real-world business systems using Django, PostgreSQL, and Docker.</strong>
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+PostgreSQL;Building+real-world+business+systems;Always+Learning,+Always+Improving&center=true&width=760&height=40">
 </p>
 
@@ -30,7 +34,7 @@ I'm **Franco Jeremias Soilan Lopez**, a Computer Science student and backend-foc
 
 I build **practical, database-driven systems** using **Python, Django, FastAPI, PostgreSQL, Redis, Docker, and REST APIs**. My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows.
 
-I enjoy working on the engineering side of web applications: **data modeling, API design, authentication, business rules, system organization, and deployment-ready environments**.
+I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, and solving real-world operational problems**.
 
 Currently, I am studying **Bachelor's Degree in Computer Science with an emphasis in Systems Analysis** at the **National University of Asunción**, Faculty of Polytechnic.
 
@@ -141,10 +145,9 @@ I have worked on internal business systems and backend modules focused on real o
 
 ---
 
-## 🚀 Public Projects Roadmap
+## 🚀 Public Backend Projects — In Progress
 
-I am currently preparing public, recruiter-friendly versions of real backend systems I have worked with.  
-These repositories will focus on clean architecture, technical documentation, Docker setup, and practical backend use cases.
+Repositories coming soon — focused on **production-like backend systems**, clean documentation, Docker-based setup, and real-world use cases.
 
 <table>
   <tr>
@@ -154,13 +157,14 @@ These repositories will focus on clean architecture, technical documentation, Do
 
 Backend API for managing assets, inventory records, and backup tracking.
 
-**Planned focus:**
+**Technical focus:**
 
-- Relational database design
+- Relational database modeling
 - CRUD operations
 - Role-based access control
 - API documentation
 - Docker Compose setup
+- PostgreSQL integration
 
 </td>
 <td width="33%" valign="top">
@@ -169,13 +173,14 @@ Backend API for managing assets, inventory records, and backup tracking.
 
 System for handling technical services, workflow states, and payment tracking.
 
-**Planned focus:**
+**Technical focus:**
 
 - Service lifecycle management
 - Payment status tracking
 - Admin dashboard logic
 - Data validation
-- PostgreSQL integration
+- Structured backend architecture
+- PostgreSQL-backed workflows
 
 </td>
 <td width="33%" valign="top">
@@ -184,12 +189,13 @@ System for handling technical services, workflow states, and payment tracking.
 
 API for managing quotation requests between clients and suppliers.
 
-**Planned focus:**
+**Technical focus:**
 
 - Client quotation requests
 - Supplier response workflow
 - Backend validations
 - RESTful endpoints
+- Environment-based configuration
 - Deployment-ready structure
 
 </td>
@@ -200,22 +206,22 @@ API for managing quotation requests between clients and suppliers.
 
 ## 🧩 Production-oriented Practices
 
-I am focused on improving the quality of my projects by applying practices closer to real production environments:
+I am focused on building backend projects with practices closer to real production environments:
 
-- Docker-based local development
-- Environment variable configuration
-- PostgreSQL-backed applications
-- Clear project structure
-- API testing with Postman
-- Authentication and permissions
-- Maintainable business logic
-- Deployment-ready application setup
+- Containerized applications using **Docker** and **Docker Compose**
+- Environment-based configuration using `.env` files
+- PostgreSQL-backed application design
+- Structured backend architecture for maintainability
+- Clear separation of models, views, business rules, and configuration
+- API testing and validation with **Postman**
+- Authentication, permissions, and protected workflows
+- Deployment-ready project structure and configuration
 
 ---
 
 ## 🧠 Backend Mindset
 
-I like backend development because it combines logic, structure, and problem-solving.
+I enjoy backend development because it involves designing systems, structuring data, and solving real-world operational problems.
 
 I am especially interested in:
 
