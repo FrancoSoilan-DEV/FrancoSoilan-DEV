@@ -8,15 +8,15 @@
 </h1>
 
 <h3 align="center">
-  Backend-focused Web Developer | Python • Django • FastAPI • Flask • PostgreSQL • Docker
+  Backend Developer | Django • FastAPI • PostgreSQL • Docker
 </h3>
 
 <p align="center">
-  <strong>Backend developer with experience building real-world business systems using Django, PostgreSQL, Docker, and clean backend workflows.</strong>
+  <strong>Backend developer building real-world business systems, partner portals, and API-driven platforms with Django, FastAPI, PostgreSQL, Docker, and clean backend workflows.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+Flask+%7C+PostgreSQL;Business+Management+Systems;Partner+Self-Quotation+Platforms;Dockerized+Backend+Workflows;Always+Learning,+Always+Improving&center=true&width=950&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+PostgreSQL+%7C+Docker;Business+Management+Systems;Partner+Self-Quotation+Platforms;Role-Based+REST+APIs;Always+Learning,+Always+Improving&center=true&width=950&height=40">
 </p>
 
 ---
@@ -32,7 +32,7 @@
 
 I'm **Franco Jeremias Soilan Lopez**, a Computer Science student and backend-focused web developer.
 
-I build **practical, database-driven systems** using **Python, Django, FastAPI, Flask, PostgreSQL, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
+I build **practical, database-driven systems** using **Python, Django, FastAPI, PostgreSQL, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
 
 My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows. I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, and solving real operational problems**.
 
@@ -46,7 +46,7 @@ Currently, I am studying **Bachelor's Degree in Computer Science with an emphasi
 
 I am actively looking for **remote opportunities as a Junior Backend Developer**, especially with:
 
-**Python · Django · FastAPI · Flask · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
+**Python · Django · FastAPI · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
 
 My goal is to contribute to real-world backend systems while growing through production-oriented development practices.
 
@@ -54,8 +54,9 @@ My goal is to contribute to real-world backend systems while growing through pro
 
 ## 🚀 Backend Projects
 
-A compact overview of the systems I have built, adapted, or prepared as public backend projects.  
-I focus on **real-world workflows, relational database design, Docker-based setup, maintainable backend structure, pricing logic, role-based access, and practical business automation**.
+A compact overview of the systems I have built, adapted, or prepared as public backend projects.
+
+These projects are designed to be **reproducible locally using Docker**, with clear setup commands, environment-based configuration, and production-like backend structure.
 
 <table>
   <tr>
@@ -75,6 +76,14 @@ Public version of an internal business management system built with **Django, Po
 
 **Focus:**  
 Business workflows · Role-based access · PostgreSQL · Docker Compose · Initial data seeding
+
+**Run locally:**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/swap-public.git
+docker compose up --build
+docker compose exec web sh scripts/docker-init.sh
+```
 
 <details>
   <summary><strong>View project details</strong></summary>
@@ -108,20 +117,6 @@ Business workflows · Role-based access · PostgreSQL · Docker Compose · Initi
 - Entry and exit records
 - Excel and PDF exports
 
-**Clone the repository:**
-
-```bash
-git clone https://github.com/FrancoSoilan-DEV/swap-public.git
-```
-
-**Main setup command:**
-
-```bash
-docker compose exec web sh scripts/docker-init.sh
-```
-
-This command applies migrations, loads required initial data, creates default users/groups/statuses, and collects static files.
-
 </details>
 
 </td>
@@ -141,6 +136,13 @@ Django-based partner portal where commercial partners can browse enabled product
 
 **Focus:**  
 Self-quotation · Pricing rules · Order approvals · Stock tracking · Email notifications · i18n
+
+**Run locally:**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/s7-partners.git
+docker compose -f docker-compose.dev.yml up --build
+```
 
 <details>
   <summary><strong>View project details</strong></summary>
@@ -184,35 +186,95 @@ Self-quotation · Pricing rules · Order approvals · Stock tracking · Email no
 - Gunicorn
 - Nginx
 - WhiteNoise
-- Redis
 - Cloudinary
 - django-rosetta
 - Brevo SMTP
 - Spanish and English internationalization
-
-**Clone the repository:**
-
-```bash
-git clone https://github.com/FrancoSoilan-DEV/s7-partners.git
-```
-
-**Development command:**
-
-```bash
-docker compose -f docker-compose.dev.yml up --build
-```
-
-Open locally:
-
-```text
-http://localhost:7000
-```
 
 </details>
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### 🔹 FastAPI Vet Software
+
+**Role-Based Veterinary Clinic REST API**
+
+Production-oriented RESTful backend for veterinary clinic management, built with **FastAPI, PostgreSQL, Docker, SQLAlchemy, Alembic, JWT authentication, and Nginx**.
+
+<p>
+  <a href="https://github.com/FrancoSoilan-DEV/FastAPI-vet-software">
+    <img src="https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+**Focus:**  
+FastAPI · Role-based access · JWT auth · PostgreSQL · Alembic · Docker · Nginx
+
+**Run locally:**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/FastAPI-vet-software.git
+docker compose -f docker/docker-compose.yml up --build
+```
+
+<details>
+  <summary><strong>View project details</strong></summary>
+
+<br>
+
+**What it demonstrates:**
+
+- RESTful backend architecture with FastAPI
+- Role-based workflows for managers, receptionists, and veterinarians
+- JWT access tokens with refresh token rotation
+- Argon2 password hashing
+- SQLAlchemy 2.0 ORM structure
+- Alembic database migrations
+- PostgreSQL-backed persistence
+- Docker Compose setup with API, database, and Nginx
+- Swagger documentation through FastAPI
+- Structured routers, schemas, services, models, and database layers
+
+**Main roles:**
+
+- **Manager:** creates and manages users, views staff activity
+- **Receptionist:** registers consultations and manages medication inventory
+- **Veterinarian:** views assigned consultations and creates/edits diagnoses
+
+**Main technical features:**
+
+- JWT access token with short expiration
+- Refresh token rotation
+- Token versioning for session invalidation
+- Role-based dependencies
+- Consultation workflow
+- Medication inventory
+- Diagnosis workflow
+- PostgreSQL health check
+- Dockerized development environment
+
+**Local URLs:**
+
+```text
+http://localhost
+http://localhost:8000
+http://localhost:8000/docs
+http://localhost:8000/health/db
+```
+
+**Useful setup commands:**
+
+```bash
+docker compose -f docker/docker-compose.yml exec api sh -lc "alembic -c /code/config/migrations/alembic.ini upgrade head"
+docker compose -f docker/docker-compose.yml exec api python /code/docker/speed.py
+```
+
+</details>
+
+</td>
 <td width="50%" valign="top">
 
 ### 🧾 Inventory & Backup System
@@ -258,51 +320,6 @@ The public version will focus on a cleaner API-based structure with:
 </details>
 
 </td>
-<td width="50%" valign="top">
-
-### 🛠️ Technical Service System
-
-**Service workflow and payment tracking**
-
-Backend module focused on managing technical services, workflow states, payment control, and operational records.
-
-<img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" />
-
-**Focus:**  
-Service lifecycle · Payments · Business rules · Admin workflows · Reporting
-
-<details>
-  <summary><strong>View project details</strong></summary>
-
-<br>
-
-**Technical focus:**
-
-- Service registration and tracking
-- Status-based workflow control
-- Payment tracking
-- Historical reporting
-- User-facing forms
-- Administrative dashboards
-- Backend validations
-- Business logic organization
-
-**Planned public version:**
-
-`service-management-system`
-
-The public version will focus on:
-
-- Clean Django architecture
-- PostgreSQL-backed workflows
-- Dockerized local environment
-- Admin dashboard logic
-- Payment status management
-- Documentation for setup and usage
-
-</details>
-
-</td>
 </tr>
 </table>
 
@@ -310,19 +327,19 @@ The public version will focus on:
 
 ## 💼 Experience Highlights
 
-I have worked on internal business systems and backend modules focused on real operational needs:
+I have worked on internal business systems, backend APIs, and business modules focused on real operational needs:
 
-- Designed relational database structures for **asset, inventory, backup, employee, partner, order, stock, and service tracking**
+- Designed relational database structures for **asset, inventory, backup, employee, partner, order, stock, consultation, medication, diagnosis, and service tracking**
 - Developed internal systems using **Django**, forms, templates, class-based views, function-based views, permissions, and administrative workflows
+- Built API-driven backend workflows using **FastAPI**, SQLAlchemy, Pydantic, routers, services, schemas, and role-based access
 - Built partner-facing workflows for **self-quotation, order submission, pricing previews, stock management, and order history**
+- Implemented pricing logic involving **client types, quantity-based multiplicators, special user multiplicators, discounts, regions, and currencies**
 - Implemented business rules for **technical service management**, including status control, payment tracking, and historical reporting
 - Built workflows for **employee gate access control**, check-in/check-out records, and historical tracking
 - Created modules for **weekly backup management**, including backup states, weekly reset logic, and duplicate prevention
 - Worked on **inventory and equipment management**, including equipment categories, maintenance calendars, and status tracking
-- Created quotation-related features for **clients, suppliers, and commercial partners**, including structured request and response flows
-- Implemented pricing logic involving **client types, quantity-based multiplicators, special user multiplicators, discounts, regions, and currencies**
-- Organized backend logic across models, views, templates, forms, utilities, APIs, and management commands
-- Worked with data consistency, validations, user-facing forms, dashboards, analytics, and internal reporting needs
+- Organized backend logic across models, views, templates, forms, utilities, APIs, services, schemas, and management commands
+- Worked with data consistency, validations, authentication, protected workflows, dashboards, analytics, and internal reporting needs
 
 ---
 
@@ -346,7 +363,7 @@ I have worked on internal business systems and backend modules focused on real o
 - REST API development
 - Backend architecture
 - Business logic implementation
-- Authentication and authorization basics
+- Authentication and authorization
 - Django management commands
 - API testing with Postman
 
@@ -393,20 +410,20 @@ I have worked on internal business systems and backend modules focused on real o
 </td>
 <td width="50%" valign="top">
 
-### Frontend Basics
+### Backend Framework Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
+  <img src="https://skillicons.dev/icons?i=fastapi,django,postgres,docker" />
 </p>
 
-- HTML
-- CSS
-- JavaScript basics
-- TypeScript basics
-- Responsive interfaces
-- Frontend integration with backend systems
-- Django templates
-- Internationalized UI basics
+- SQLAlchemy
+- Alembic migrations
+- Pydantic schemas
+- JWT authentication
+- Refresh token rotation
+- Argon2 password hashing
+- Role-based access control
+- Swagger / OpenAPI documentation
 
 </td>
 </tr>
@@ -422,12 +439,13 @@ I am focused on building backend projects with practices closer to real producti
 - Environment-based configuration using `.env` files
 - PostgreSQL-backed application design
 - Structured backend architecture for maintainability
-- Clear separation of models, views, forms, APIs, business rules, and configuration
+- Clear separation of models, views, routers, schemas, services, forms, APIs, business rules, and configuration
 - Custom Django management commands for repeatable setup
+- Alembic migrations for FastAPI/SQLAlchemy projects
 - Initial data seeding for predictable local environments
-- API testing and validation with **Postman**
-- Authentication, permissions, groups, staff roles, and protected workflows
-- Gunicorn/Nginx-based deployment flow
+- API testing and validation with **Postman** and Swagger docs
+- Authentication, permissions, groups, roles, and protected workflows
+- Gunicorn/Nginx and Uvicorn/Nginx deployment flows
 - Static files handling with WhiteNoise
 - Public repository safety with `.env.example` and secret isolation
 - Git-based collaboration using **Git, GitHub, and GitLab**
@@ -445,7 +463,6 @@ I am especially interested in:
 - Keeping business logic organized and reusable
 - Improving internal tools and administrative systems
 - Connecting databases, services, users, permissions, and business workflows
-- Writing code that is practical, readable, and easier to improve over time
 - Creating systems that can be initialized and reproduced with clear setup commands
 - Turning real operational processes into structured software systems
 
@@ -453,33 +470,21 @@ I am especially interested in:
 
 ## 📚 Currently Learning
 
-- Advanced Django development
-- Django REST Framework best practices
-- API design best practices
-- Docker-based development workflows
+- Advanced Django and FastAPI development
+- API design and authentication best practices
+- Docker-based development and deployment workflows
 - Scalable database structures
-- Clean code and software architecture
-- Production-ready web applications
-- Better testing practices
-- Backend project documentation
-- Deployment workflows with Gunicorn and Nginx
+- Testing, documentation, and production-ready backend architecture
 
 ---
 
 ## 🛠️ What I Like to Build
 
-- Backend systems
-- REST APIs
-- Admin dashboards
-- Database-driven applications
-- Authentication systems
-- Partner portals
-- Self-service quotation systems
-- Inventory and stock management systems
-- Automation tools
-- Internal business systems
-- Dockerized web platforms
-- Management systems with real-world use cases
+- REST APIs and backend systems
+- Admin dashboards and partner portals
+- Authentication and role-based workflows
+- Inventory, stock, quotation, and management systems
+- Dockerized web platforms with real-world business use cases
 
 ---
 
