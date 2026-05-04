@@ -12,11 +12,11 @@
 </h3>
 
 <p align="center">
-  <strong>Backend developer with experience building real-world business systems using Django, PostgreSQL, and Docker.</strong>
+  <strong>Backend developer focused on building practical, database-driven systems with Django, PostgreSQL, Docker, and clean backend workflows.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+PostgreSQL;Building+real-world+business+systems;Always+Learning,+Always+Improving&center=true&width=760&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+PostgreSQL;Dockerized+Business+Systems;Real-world+Backend+Workflows;Always+Learning,+Always+Improving&center=true&width=850&height=40">
 </p>
 
 ---
@@ -32,9 +32,9 @@
 
 I'm **Franco Jeremias Soilan Lopez**, a Computer Science student and backend-focused web developer.
 
-I build **practical, database-driven systems** using **Python, Django, FastAPI, PostgreSQL, Redis, Docker, and REST APIs**. My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows.
+I build **practical, database-driven systems** using **Python, Django, FastAPI, PostgreSQL, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
 
-I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, and solving real-world operational problems**.
+My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows. I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, and solving real operational problems**.
 
 Currently, I am studying **Bachelor's Degree in Computer Science with an emphasis in Systems Analysis** at the **National University of Asunción**, Faculty of Polytechnic.
 
@@ -46,9 +46,75 @@ Currently, I am studying **Bachelor's Degree in Computer Science with an emphasi
 
 I am actively looking for **remote opportunities as a Junior Backend Developer**, especially with:
 
-**Python · Django · FastAPI · PostgreSQL · Redis · Docker · REST APIs**
+**Python · Django · FastAPI · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
 
 My goal is to contribute to real-world backend systems while growing through production-oriented development practices.
+
+---
+
+## 🚀 Featured Public Project
+
+<table>
+  <tr>
+    <td width="100%" valign="top">
+
+### 🔹 SWAP Public — Django Business Management System
+
+**SWAP Public** is a Docker-ready public version of an internal business management system built with **Django, PostgreSQL, Docker, Redis, Gunicorn, and WhiteNoise**.
+
+It demonstrates a production-oriented Django project structure with multiple business modules, role-based access, initial data seeding, migrations, static file handling, and a full local Docker setup.
+
+**Repository:**
+
+<a href="https://github.com/FrancoSoilan-DEV/swap-public">
+  <img src="https://img.shields.io/badge/GitHub-swap--public-black?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+**Clone URL:**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/swap-public.git
+```
+
+**Most important setup command:**
+
+```bash
+docker compose exec web sh scripts/docker-init.sh
+```
+
+This command applies migrations, loads required initial data, creates default users/groups/statuses, and collects static files.
+
+**Main modules included:**
+
+- Authentication and role-based redirection
+- Human Resources / TTHH
+- IT / Informatica
+- Gatehouse / Porteria
+- Technician panel / Tecnico
+- Technical Service / Servicio Tecnico
+- Weekly backup control
+- Backup history
+- Inventory management
+- Equipment management
+- Maintenance scheduling
+- Entry and exit records
+- Excel and PDF exports
+
+**Technical focus:**
+
+- Django project architecture
+- PostgreSQL database modeling
+- Docker and Docker Compose setup
+- Environment-based configuration with `.env`
+- Data seeding through custom Django management commands
+- Role-based access using Django groups
+- Business logic organized across multiple apps
+- Static files handled with WhiteNoise
+- Production-like local setup
+
+</td>
+  </tr>
+</table>
 
 ---
 
@@ -56,12 +122,14 @@ My goal is to contribute to real-world backend systems while growing through pro
 
 I have worked on internal business systems and backend modules focused on real operational needs:
 
-- Designed relational database structures for **asset, inventory, backup, and service tracking**
-- Developed internal systems using **Django**, forms, templates, views, permissions, and administrative workflows
-- Implemented business rules for **technical service management**, including payment tracking and process control
+- Designed relational database structures for **asset, inventory, backup, employee, and service tracking**
+- Developed internal systems using **Django**, forms, templates, class-based views, function-based views, permissions, and administrative workflows
+- Implemented business rules for **technical service management**, including status control, payment tracking, and historical reporting
 - Built workflows for **employee gate access control**, check-in/check-out records, and historical tracking
+- Created modules for **weekly backup management**, including backup states, weekly reset logic, and duplicate prevention
+- Worked on **inventory and equipment management**, including equipment categories, maintenance calendars, and status tracking
 - Created quotation-related features for **clients and suppliers**, including structured request and response flows
-- Organized backend logic across models, views, templates, and services to keep systems easier to maintain
+- Organized backend logic across models, views, templates, forms, utilities, and management commands
 - Worked with data consistency, validations, user-facing forms, dashboards, and internal reporting needs
 
 ---
@@ -85,6 +153,7 @@ I have worked on internal business systems and backend modules focused on real o
 - Backend architecture
 - Business logic implementation
 - Authentication and authorization basics
+- Django management commands
 - API testing with Postman
 
 </td>
@@ -112,16 +181,18 @@ I have worked on internal business systems and backend modules focused on real o
 ### DevOps & Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,postman,bash" />
+  <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,postman,bash,linux" />
 </p>
 
 - Docker
 - Docker Compose
-- Git & GitHub
+- Git
+- GitHub
+- GitLab
 - Postman
 - Bash basics
 - Linux basics
-- Environment configuration
+- Environment configuration with `.env`
 
 </td>
 <td width="50%" valign="top">
@@ -132,71 +203,13 @@ I have worked on internal business systems and backend modules focused on real o
   <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
 </p>
 
-- Basic HTML
-- Basic CSS
+- HTML
+- CSS
 - JavaScript basics
 - TypeScript basics
 - Responsive interfaces
 - Frontend integration with backend systems
-
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 Public Backend Projects — In Progress
-
-Repositories coming soon — focused on **production-like backend systems**, clean documentation, Docker-based setup, and real-world use cases.
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-
-### inventory-management-api
-
-Backend API for managing assets, inventory records, and backup tracking.
-
-**Technical focus:**
-
-- Relational database modeling
-- CRUD operations
-- Role-based access control
-- API documentation
-- Docker Compose setup
-- PostgreSQL integration
-
-</td>
-<td width="33%" valign="top">
-
-### service-management-system
-
-System for handling technical services, workflow states, and payment tracking.
-
-**Technical focus:**
-
-- Service lifecycle management
-- Payment status tracking
-- Admin dashboard logic
-- Data validation
-- Structured backend architecture
-- PostgreSQL-backed workflows
-
-</td>
-<td width="33%" valign="top">
-
-### quotation-system-api
-
-API for managing quotation requests between clients and suppliers.
-
-**Technical focus:**
-
-- Client quotation requests
-- Supplier response workflow
-- Backend validations
-- RESTful endpoints
-- Environment-based configuration
-- Deployment-ready structure
+- Django templates
 
 </td>
 </tr>
@@ -212,10 +225,13 @@ I am focused on building backend projects with practices closer to real producti
 - Environment-based configuration using `.env` files
 - PostgreSQL-backed application design
 - Structured backend architecture for maintainability
-- Clear separation of models, views, business rules, and configuration
+- Clear separation of models, views, forms, business rules, and configuration
+- Custom Django management commands for repeatable setup
+- Initial data seeding for predictable local environments
 - API testing and validation with **Postman**
-- Authentication, permissions, and protected workflows
+- Authentication, permissions, groups, and protected workflows
 - Deployment-ready project structure and configuration
+- Git-based collaboration using **Git, GitHub, and GitLab**
 
 ---
 
@@ -231,17 +247,20 @@ I am especially interested in:
 - Improving internal tools and administrative systems
 - Connecting databases, services, and user workflows
 - Writing code that is practical, readable, and easier to improve over time
+- Creating systems that can be initialized and reproduced with clear setup commands
 
 ---
 
 ## 📚 Currently Learning
 
-- Advanced backend development
+- Advanced Django development
 - API design best practices
 - Docker-based development workflows
 - Scalable database structures
 - Clean code and software architecture
 - Production-ready web applications
+- Better testing practices
+- Backend project documentation
 
 ---
 
@@ -254,7 +273,46 @@ I am especially interested in:
 - Authentication systems
 - Automation tools
 - Internal business systems
-- Web platforms with real-world use cases
+- Dockerized web platforms
+- Management systems with real-world use cases
+
+---
+
+## 📌 Current Public Repositories
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### SWAP Public
+
+Django-based business management system prepared for local Docker usage.
+
+<a href="https://github.com/FrancoSoilan-DEV/swap-public">
+  <img src="https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/swap-public.git
+```
+
+</td>
+<td width="50%" valign="top">
+
+### More Backend Projects
+
+More public backend projects are in progress, focused on:
+
+- APIs
+- Django systems
+- PostgreSQL
+- Docker
+- Clean documentation
+- Real-world business workflows
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -269,9 +327,22 @@ I am especially interested in:
     <img src="https://img.shields.io/badge/LinkedIn-Franco%20Soilan-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
-  <a href="https://github.com/TU_USUARIO_DE_GITHUB">
-    <img src="https://img.shields.io/badge/GitHub-Franco%20Soilan-black?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://github.com/FrancoSoilan-DEV">
+    <img src="https://img.shields.io/badge/GitHub-FrancoSoilan--DEV-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+
+  <a href="https://gitlab.com/TU_USUARIO_DE_GITLAB">
+    <img src="https://img.shields.io/badge/GitLab-Franco%20Soilan-orange?style=for-the-badge&logo=gitlab&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=FrancoSoilan-DEV&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FrancoSoilan-DEV&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
