@@ -12,11 +12,11 @@
 </h3>
 
 <p align="center">
-  <strong>Backend developer focused on building practical, database-driven systems with Django, PostgreSQL, Docker, and clean backend workflows.</strong>
+  <strong>Backend developer with experience building real-world business systems using Django, PostgreSQL, Docker, and clean backend workflows.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+PostgreSQL;Dockerized+Business+Systems;Real-world+Backend+Workflows;Always+Learning,+Always+Improving&center=true&width=850&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+PostgreSQL;Building+real-world+business+systems;Dockerized+Backend+Workflows;Always+Learning,+Always+Improving&center=true&width=850&height=40">
 </p>
 
 ---
@@ -52,17 +52,20 @@ My goal is to contribute to real-world backend systems while growing through pro
 
 ---
 
-## 🚀 Project Spotlight
+## 🚀 Backend Projects
+
+A compact overview of the systems I have built, adapted, or am preparing as public backend projects.  
+I focus on **real-world workflows, relational database design, Docker-based setup, maintainable backend structure, and practical business logic**.
 
 <table>
   <tr>
-    <td width="100%" valign="top">
+    <td width="50%" valign="top">
 
-### 🔹 SWAP Public — Django Business Management System
+### 🔹 SWAP Public
 
-**SWAP Public** is a Docker-ready public version of an internal business management system built with **Django, PostgreSQL, Docker, Redis, Gunicorn, and WhiteNoise**.
+**Django Business Management System**
 
-It demonstrates a production-oriented Django project structure with multiple business modules, role-based access, initial data seeding, migrations, static file handling, and a full local Docker setup.
+Public version of an internal business management system built with **Django, PostgreSQL, Docker, Redis, Gunicorn, and WhiteNoise**.
 
 <p>
   <a href="https://github.com/FrancoSoilan-DEV/swap-public">
@@ -70,22 +73,24 @@ It demonstrates a production-oriented Django project structure with multiple bus
   </a>
 </p>
 
-**Tech Stack:**  
-Django · PostgreSQL · Docker · Docker Compose · Redis · Gunicorn · WhiteNoise · JavaScript
-
-**Main technical value:**
-
-- Modular Django architecture for real business workflows
-- PostgreSQL-backed relational database structure
-- Docker Compose setup for reproducible local environments
-- Custom initialization script for migrations, seed data, users, groups, statuses, and static files
-- Role-based access using Django groups and permissions
-- Multiple internal modules for inventory, backups, technical service, gate access, and reporting
+**Focus:**  
+Business workflows · Role-based access · PostgreSQL · Docker Compose · Initial data seeding
 
 <details>
-  <summary><strong>View modules and setup details</strong></summary>
+  <summary><strong>View project details</strong></summary>
 
 <br>
+
+**What it demonstrates:**
+
+- Modular Django project architecture
+- PostgreSQL-backed relational database structure
+- Docker and Docker Compose local setup
+- Role-based access using Django groups and permissions
+- Custom initialization script for repeatable setup
+- Static files handled with WhiteNoise
+- Initial data seeding through Django management commands
+- Multiple business modules inside one system
 
 **Main modules included:**
 
@@ -107,3 +112,355 @@ Django · PostgreSQL · Docker · Docker Compose · Redis · Gunicorn · WhiteNo
 
 ```bash
 git clone https://github.com/FrancoSoilan-DEV/swap-public.git
+```
+
+**Main setup command:**
+
+```bash
+docker compose exec web sh scripts/docker-init.sh
+```
+
+This command applies migrations, loads required initial data, creates default users/groups/statuses, and collects static files.
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧾 Inventory & Backup System
+
+**Asset and backup tracking workflow**
+
+System focused on managing IT assets, equipment records, backup states, and historical tracking.
+
+<img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" />
+
+**Focus:**  
+Inventory · Backups · Equipment · PostgreSQL · Internal workflows
+
+<details>
+  <summary><strong>View project details</strong></summary>
+
+<br>
+
+**Technical focus:**
+
+- Relational database design for assets and equipment
+- Backup state tracking
+- Weekly backup workflow logic
+- Duplicate prevention rules
+- Administrative views and forms
+- Historical records
+- Structured backend logic for internal operations
+
+**Planned public version:**
+
+`inventory-management-api`
+
+The public version will focus on a cleaner API-based structure with:
+
+- Django or FastAPI backend
+- PostgreSQL database
+- Docker Compose setup
+- Authentication
+- CRUD operations
+- API documentation
+- Clean README and setup guide
+
+</details>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛠️ Technical Service System
+
+**Service workflow and payment tracking**
+
+Backend module focused on managing technical services, workflow states, payment control, and operational records.
+
+<img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" />
+
+**Focus:**  
+Service lifecycle · Payments · Business rules · Admin workflows · Reporting
+
+<details>
+  <summary><strong>View project details</strong></summary>
+
+<br>
+
+**Technical focus:**
+
+- Service registration and tracking
+- Status-based workflow control
+- Payment tracking
+- Historical reporting
+- User-facing forms
+- Administrative dashboards
+- Backend validations
+- Business logic organization
+
+**Planned public version:**
+
+`service-management-system`
+
+The public version will focus on:
+
+- Clean Django architecture
+- PostgreSQL-backed workflows
+- Dockerized local environment
+- Admin dashboard logic
+- Payment status management
+- Documentation for setup and usage
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+
+### 📄 Quotation System API
+
+**Client and supplier quotation workflow**
+
+API-oriented system for managing quotation requests between clients and suppliers.
+
+<img src="https://img.shields.io/badge/Status-Planned-lightgrey?style=for-the-badge" />
+
+**Focus:**  
+REST APIs · Quotation requests · Supplier responses · Validations · Backend logic
+
+<details>
+  <summary><strong>View project details</strong></summary>
+
+<br>
+
+**Technical focus:**
+
+- Client quotation request flow
+- Supplier response workflow
+- Request status tracking
+- Backend validations
+- RESTful endpoint design
+- Environment-based configuration
+- Deployment-ready project structure
+
+**Planned public version:**
+
+`quotation-system-api`
+
+The public version will focus on:
+
+- FastAPI or Django REST-style backend
+- PostgreSQL database
+- Docker Compose setup
+- API documentation
+- Clean endpoint structure
+- Practical business use case
+
+</details>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💼 Experience Highlights
+
+I have worked on internal business systems and backend modules focused on real operational needs:
+
+- Designed relational database structures for **asset, inventory, backup, employee, and service tracking**
+- Developed internal systems using **Django**, forms, templates, class-based views, function-based views, permissions, and administrative workflows
+- Implemented business rules for **technical service management**, including status control, payment tracking, and historical reporting
+- Built workflows for **employee gate access control**, check-in/check-out records, and historical tracking
+- Created modules for **weekly backup management**, including backup states, weekly reset logic, and duplicate prevention
+- Worked on **inventory and equipment management**, including equipment categories, maintenance calendars, and status tracking
+- Created quotation-related features for **clients and suppliers**, including structured request and response flows
+- Organized backend logic across models, views, templates, forms, utilities, and management commands
+- Worked with data consistency, validations, user-facing forms, dashboards, and internal reporting needs
+
+---
+
+## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="27px"> Tech Stack
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### Backend Development
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi" />
+</p>
+
+- Python
+- Django
+- FastAPI
+- REST API development
+- Backend architecture
+- Business logic implementation
+- Authentication and authorization basics
+- Django management commands
+- API testing with Postman
+
+</td>
+<td width="50%" valign="top">
+
+### Databases & Cache
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis" />
+</p>
+
+- PostgreSQL
+- MySQL
+- Redis
+- Relational database design
+- Data modeling
+- Query optimization basics
+- Cache usage basics
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### DevOps & Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,postman,bash,linux" />
+</p>
+
+- Docker
+- Docker Compose
+- Git
+- GitHub
+- GitLab
+- Postman
+- Bash basics
+- Linux basics
+- Environment configuration with `.env`
+
+</td>
+<td width="50%" valign="top">
+
+### Frontend Basics
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
+</p>
+
+- HTML
+- CSS
+- JavaScript basics
+- TypeScript basics
+- Responsive interfaces
+- Frontend integration with backend systems
+- Django templates
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧩 Production-oriented Practices
+
+I am focused on building backend projects with practices closer to real production environments:
+
+- Containerized applications using **Docker** and **Docker Compose**
+- Environment-based configuration using `.env` files
+- PostgreSQL-backed application design
+- Structured backend architecture for maintainability
+- Clear separation of models, views, forms, business rules, and configuration
+- Custom Django management commands for repeatable setup
+- Initial data seeding for predictable local environments
+- API testing and validation with **Postman**
+- Authentication, permissions, groups, and protected workflows
+- Deployment-ready project structure and configuration
+- Git-based collaboration using **Git, GitHub, and GitLab**
+
+---
+
+## 🧠 Backend Mindset
+
+I enjoy backend development because it involves designing systems, structuring data, and solving real-world operational problems.
+
+I am especially interested in:
+
+- Designing clean and maintainable data models
+- Building APIs that are easy to understand and consume
+- Keeping business logic organized and reusable
+- Improving internal tools and administrative systems
+- Connecting databases, services, and user workflows
+- Writing code that is practical, readable, and easier to improve over time
+- Creating systems that can be initialized and reproduced with clear setup commands
+
+---
+
+## 📚 Currently Learning
+
+- Advanced Django development
+- API design best practices
+- Docker-based development workflows
+- Scalable database structures
+- Clean code and software architecture
+- Production-ready web applications
+- Better testing practices
+- Backend project documentation
+
+---
+
+## 🛠️ What I Like to Build
+
+- Backend systems
+- REST APIs
+- Admin dashboards
+- Database-driven applications
+- Authentication systems
+- Automation tools
+- Internal business systems
+- Dockerized web platforms
+- Management systems with real-world use cases
+
+---
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="mailto:TU_EMAIL_AQUI">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/TU_LINKEDIN_AQUI">
+    <img src="https://img.shields.io/badge/LinkedIn-Franco%20Soilan-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="https://github.com/FrancoSoilan-DEV">
+    <img src="https://img.shields.io/badge/GitHub-FrancoSoilan--DEV-black?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+  <a href="https://gitlab.com/TU_USUARIO_DE_GITLAB">
+    <img src="https://img.shields.io/badge/GitLab-Franco%20Soilan-orange?style=for-the-badge&logo=gitlab&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=FrancoSoilan-DEV&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FrancoSoilan-DEV&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+<div align="center">
+  <h3>☕ Fueled by coffee, curiosity, and backend development 🐱</h3>
+</div>
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer" />
+</div>
