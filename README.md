@@ -2,6 +2,10 @@
    <img width=100% src=https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true />
 </div>
 <h1 align="center">Hi , I'm Franco Soilan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"><div></div></h1>
+<p align="left">
+ <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+Profile!&center=true&width=360&height=30">
+   <a href="#"><img width="500px" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="500px"/></a>
+</p>
 
 
 - Know/Using
@@ -14,4 +18,4 @@
 <h2><img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px"> Habilidades</h2>
 
 
-<a href="#"><img width="500px" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="500px"/></a>
+
