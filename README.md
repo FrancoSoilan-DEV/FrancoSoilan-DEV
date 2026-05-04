@@ -22,19 +22,17 @@
 <img 
   src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" 
   alt="Computer illustration" 
-  width="380px" 
+  width="370px" 
   align="right"
 />
 
 I'm **Franco Jeremias Soilan Lopez**, a Computer Science student and backend-focused web developer.
 
-I enjoy building **practical, database-driven systems** that solve real business problems. My main focus is backend development with **Python, Django, FastAPI, PostgreSQL, Redis, Docker, and REST APIs**.
+I build **practical, database-driven systems** using **Python, Django, FastAPI, PostgreSQL, Redis, Docker, and REST APIs**. My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows.
 
-I like working on the parts of software that happen behind the scenes: data modeling, API design, business logic, authentication, integrations, and systems that need to be reliable and maintainable.
+I enjoy working on the engineering side of web applications: **data modeling, API design, authentication, business rules, system organization, and deployment-ready environments**.
 
 Currently, I am studying **Bachelor's Degree in Computer Science with an emphasis in Systems Analysis** at the **National University of Asunción**, Faculty of Polytechnic.
-
-Beyond coding, I love **coffee**, **cats**, and learning how to build better software every day.
 
 <br clear="right"/>
 
@@ -42,31 +40,25 @@ Beyond coding, I love **coffee**, **cats**, and learning how to build better sof
 
 ## 🎯 Current Goal
 
-I am actively looking for **remote opportunities as a Backend Developer**, especially with:
+I am actively looking for **remote opportunities as a Junior Backend Developer**, especially with:
 
-- Python
-- Django
-- FastAPI
-- PostgreSQL
-- Redis
-- Docker
-- REST API development
+**Python · Django · FastAPI · PostgreSQL · Redis · Docker · REST APIs**
 
-My goal is to keep growing as a backend developer while contributing to real-world systems that are useful, reliable, and well-structured.
+My goal is to contribute to real-world backend systems while growing through production-oriented development practices.
 
 ---
 
 ## 💼 Experience Highlights
 
-These are some of the real-world systems and modules I have worked on or built:
+I have worked on internal business systems and backend modules focused on real operational needs:
 
-- Developed and maintained internal business systems using **Django**
-- Built an **inventory and backup tracking system** for IT assets
-- Implemented a **gate access control system** for employee check-in and check-out
-- Created a **technical service management module** with payment tracking
-- Designed a **self-service quotation system** for clients and suppliers
-- Worked with relational databases, backend logic, forms, dashboards, and administrative workflows
-- Improved system organization by structuring data, views, templates, and business rules in maintainable ways
+- Designed relational database structures for **asset, inventory, backup, and service tracking**
+- Developed internal systems using **Django**, forms, templates, views, permissions, and administrative workflows
+- Implemented business rules for **technical service management**, including payment tracking and process control
+- Built workflows for **employee gate access control**, check-in/check-out records, and historical tracking
+- Created quotation-related features for **clients and suppliers**, including structured request and response flows
+- Organized backend logic across models, views, templates, and services to keep systems easier to maintain
+- Worked with data consistency, validations, user-facing forms, dashboards, and internal reporting needs
 
 ---
 
@@ -120,12 +112,12 @@ These are some of the real-world systems and modules I have worked on or built:
 </p>
 
 - Docker
+- Docker Compose
 - Git & GitHub
 - Postman
 - Bash basics
 - Linux basics
 - Environment configuration
-- API documentation and testing
 
 </td>
 <td width="50%" valign="top">
@@ -136,12 +128,12 @@ These are some of the real-world systems and modules I have worked on or built:
   <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
 </p>
 
-- HTML
-- CSS
-- JavaScript
+- Basic HTML
+- Basic CSS
+- JavaScript basics
 - TypeScript basics
 - Responsive interfaces
-- Template integration with backend systems
+- Frontend integration with backend systems
 
 </td>
 </tr>
@@ -149,107 +141,90 @@ These are some of the real-world systems and modules I have worked on or built:
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Public Projects Roadmap
 
-> Replace the repository links with your real GitHub project links.
+I am currently preparing public, recruiter-friendly versions of real backend systems I have worked with.  
+These repositories will focus on clean architecture, technical documentation, Docker setup, and practical backend use cases.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
 
-### Inventory & Backup Tracking System
+### inventory-management-api
 
-A system designed to manage IT assets, backups, and internal resource tracking.
+Backend API for managing assets, inventory records, and backup tracking.
 
-**Main features:**
+**Planned focus:**
 
-- Asset registration and management
-- Backup tracking
-- Administrative views
-- Structured database models
-- Internal workflow organization
-
-**Tech Stack:** Django, Python, PostgreSQL, HTML, CSS
-
-**Repository:** [Add project link here](#)
+- Relational database design
+- CRUD operations
+- Role-based access control
+- API documentation
+- Docker Compose setup
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Gate Access Control System
+### service-management-system
 
-A system for managing employee check-in and check-out records through controlled access workflows.
+System for handling technical services, workflow states, and payment tracking.
 
-**Main features:**
+**Planned focus:**
 
-- Employee entry and exit tracking
-- Access records
-- Administrative control panel
-- Database-driven reporting
-- Business rule validation
-
-**Tech Stack:** Django, Python, PostgreSQL, JavaScript
-
-**Repository:** [Add project link here](#)
+- Service lifecycle management
+- Payment status tracking
+- Admin dashboard logic
+- Data validation
+- PostgreSQL integration
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Technical Service Management Module
+### quotation-system-api
 
-A module for managing technical services, payments, and operational workflows.
+API for managing quotation requests between clients and suppliers.
 
-**Main features:**
-
-- Service registration
-- Payment tracking
-- Client/service relationship management
-- Administrative dashboards
-- Backend business logic
-
-**Tech Stack:** Django, Python, PostgreSQL, Docker
-
-**Repository:** [Add project link here](#)
-
-</td>
-<td width="50%" valign="top">
-
-### Self-service Quotation System
-
-A quotation system designed for clients and suppliers, focused on simplifying request and response workflows.
-
-**Main features:**
+**Planned focus:**
 
 - Client quotation requests
-- Supplier quotation handling
-- Dynamic forms
-- Backend validation
-- Database-driven workflow
-
-**Tech Stack:** Django, Python, PostgreSQL, HTML, CSS, JavaScript
-
-**Repository:** [Add project link here](#)
+- Supplier response workflow
+- Backend validations
+- RESTful endpoints
+- Deployment-ready structure
 
 </td>
 </tr>
 </table>
+
+---
+
+## 🧩 Production-oriented Practices
+
+I am focused on improving the quality of my projects by applying practices closer to real production environments:
+
+- Docker-based local development
+- Environment variable configuration
+- PostgreSQL-backed applications
+- Clear project structure
+- API testing with Postman
+- Authentication and permissions
+- Maintainable business logic
+- Deployment-ready application setup
 
 ---
 
 ## 🧠 Backend Mindset
 
-I am especially interested in backend problems such as:
+I like backend development because it combines logic, structure, and problem-solving.
+
+I am especially interested in:
 
 - Designing clean and maintainable data models
 - Building APIs that are easy to understand and consume
-- Organizing business logic in a scalable way
+- Keeping business logic organized and reusable
 - Improving internal tools and administrative systems
 - Connecting databases, services, and user workflows
-- Writing code that is readable, reusable, and practical
-
-I believe good backend development is not only about making things work, but also about making them reliable, understandable, and easier to improve over time.
+- Writing code that is practical, readable, and easier to improve over time
 
 ---
 
@@ -261,13 +236,10 @@ I believe good backend development is not only about making things work, but als
 - Scalable database structures
 - Clean code and software architecture
 - Production-ready web applications
-- Better development workflows with Git and GitHub
 
 ---
 
 ## 🛠️ What I Like to Build
-
-I enjoy working on projects that involve:
 
 - Backend systems
 - REST APIs
@@ -299,7 +271,7 @@ I enjoy working on projects that involve:
 ---
 
 <div align="center">
-  <h3>☕ Fueled by coffee, curiosity, and a love for backend development 🐱</h3>
+  <h3>☕ Fueled by coffee, curiosity, and backend development 🐱</h3>
 </div>
 
 <div align="center">
