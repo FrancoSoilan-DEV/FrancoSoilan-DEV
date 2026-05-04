@@ -8,7 +8,7 @@
 </h1>
 
 <h3 align="center">
-  Backend-focused Web Developer | Python • Django • FastAPI • PostgreSQL • Docker
+  Backend-focused Web Developer | Python • Django • FastAPI • Flask • PostgreSQL • Docker
 </h3>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+PostgreSQL;Building+real-world+business+systems;Dockerized+Backend+Workflows;Always+Learning,+Always+Improving&center=true&width=850&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Python+%7C+Django+%7C+FastAPI+%7C+Flask+%7C+PostgreSQL;Building+real-world+business+systems;Dockerized+Backend+Workflows;Always+Learning,+Always+Improving&center=true&width=900&height=40">
 </p>
 
 ---
@@ -32,7 +32,7 @@
 
 I'm **Franco Jeremias Soilan Lopez**, a Computer Science student and backend-focused web developer.
 
-I build **practical, database-driven systems** using **Python, Django, FastAPI, PostgreSQL, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
+I build **practical, database-driven systems** using **Python, Django, FastAPI, Flask, PostgreSQL, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
 
 My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows. I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, and solving real operational problems**.
 
@@ -46,7 +46,7 @@ Currently, I am studying **Bachelor's Degree in Computer Science with an emphasi
 
 I am actively looking for **remote opportunities as a Junior Backend Developer**, especially with:
 
-**Python · Django · FastAPI · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
+**Python · Django · FastAPI · Flask · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
 
 My goal is to contribute to real-world backend systems while growing through production-oriented development practices.
 
@@ -291,12 +291,13 @@ I have worked on internal business systems and backend modules focused on real o
 ### Backend Development
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,django,fastapi" />
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask" />
 </p>
 
 - Python
 - Django
 - FastAPI
+- Flask
 - REST API development
 - Backend architecture
 - Business logic implementation
@@ -444,15 +445,6 @@ I am especially interested in:
   <a href="https://gitlab.com/TU_USUARIO_DE_GITLAB">
     <img src="https://img.shields.io/badge/GitLab-Franco%20Soilan-orange?style=for-the-badge&logo=gitlab&logoColor=white" />
   </a>
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=FrancoSoilan-DEV&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FrancoSoilan-DEV&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
