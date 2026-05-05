@@ -12,11 +12,11 @@
 </h3>
 
 <p align="center">
-  <strong>Backend developer building real-world business systems, partner portals, API-driven platforms, and Dockerized backend tools with clean, maintainable workflows.</strong>
+  <strong>Backend developer building real-world business systems, partner portals, API-driven platforms, real-time applications, and Dockerized backend tools with clean, maintainable workflows.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+PostgreSQL+%7C+Docker;Business+Management+Systems;Partner+Self-Quotation+Platforms;Role-Based+REST+APIs;Flask+API+Integrations;Always+Learning,+Always+Improving&center=true&width=950&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+PostgreSQL+%7C+Docker;Business+Management+Systems;Real-time+Django+Applications;Partner+Self-Quotation+Platforms;Role-Based+REST+APIs;Always+Learning,+Always+Improving&center=true&width=950&height=40">
 </p>
 
 ---
@@ -56,33 +56,33 @@ My goal is to contribute to real-world backend systems while growing through pro
 
 A compact overview of the systems I have built, adapted, or prepared as public backend projects.
 
-These projects are designed to be **reproducible locally using Docker**, with clear setup commands, environment-based configuration, external API integration, and production-like backend structure.
+These projects are designed to be **reproducible locally using Docker**, with clear setup commands, environment-based configuration, external API integration, real-time workflows, and production-like backend structure.
 
 <table>
   <tr>
     <td width="50%" valign="top">
 
-### 🔹 SWAP Public
+### 🔹 Django Burgers System
 
-**Django Business Management System**
+**Real-time Restaurant Management Platform**
 
-Public version of an internal business management system built with **Django, PostgreSQL, Docker, Redis, Gunicorn, and WhiteNoise**.
+Medium/advanced Django restaurant system with **real-time ordering**, **QR/table workflows**, **Stripe payments**, **Google OAuth**, **Django Channels**, **Redis**, **Daphne**, **Nginx**, and **Docker**.
 
 <p>
-  <a href="https://github.com/FrancoSoilan-DEV/swap-public">
+  <a href="https://github.com/FrancoSoilan-DEV/Django-Burgers-System">
     <img src="https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
 **Focus:**  
-Business workflows · Role-based access · PostgreSQL · Docker Compose · Initial data seeding
+Django Channels · WebSockets · Redis · Stripe · Google OAuth · Restaurant workflows · Docker
 
 **Run locally:**
 
 ```bash
-git clone https://github.com/FrancoSoilan-DEV/swap-public.git
+git clone https://github.com/FrancoSoilan-DEV/Django-Burgers-System.git
+cd Django-Burgers-System
 docker compose up --build
-docker compose exec web sh scripts/docker-init.sh
 ```
 
 <details>
@@ -92,44 +92,78 @@ docker compose exec web sh scripts/docker-init.sh
 
 **What it demonstrates:**
 
-- Modular Django project architecture
-- PostgreSQL-backed relational database structure
-- Docker and Docker Compose local setup
-- Role-based access using Django groups and permissions
-- Custom initialization script for repeatable setup
-- Static files handled with WhiteNoise
-- Initial data seeding through Django management commands
-- Multiple business modules inside one system
+- Real-time restaurant workflow using Django Channels and Redis
+- ASGI architecture with Daphne
+- Nginx reverse proxy for HTTP and WebSocket traffic
+- PostgreSQL-backed relational data model
+- Google OAuth authentication with Django Allauth
+- Stripe PaymentIntent card payments
+- Cash payment workflow
+- Role-based dashboards for clients, waiters, kitchen staff, and managers
+- Table selection and table session workflow
+- Waiter call system with real-time notifications
+- Kitchen order acceptance and preparation flow
+- Manager dashboard for users, roles, tables, categories, and products
+- Docker Compose setup with PostgreSQL, Redis, Daphne, and Nginx
 
-**Main modules included:**
+**Main roles:**
 
-- Authentication and role-based redirection
-- Human Resources / TTHH
-- IT / Informatica
-- Gatehouse / Porteria
-- Technician panel / Tecnico
-- Technical Service / Servicio Tecnico
-- Weekly backup control
-- Backup history
-- Inventory management
-- Equipment management
-- Maintenance scheduling
-- Entry and exit records
-- Excel and PDF exports
+- **Client:** selects table, creates orders, pays, calls waiter, tracks order status
+- **Waiter:** accepts table calls, creates orders, delivers food, closes tables
+- **Kitchen:** receives orders in real time, accepts them, marks them as ready
+- **Manager:** manages products, categories, tables, users, and roles
+
+**Main real-time events:**
+
+- New orders
+- Waiter calls
+- Order accepted by kitchen
+- Order ready
+- Order delivered
+- Table closed
+- Client session closed
+
+**Main technologies:**
+
+- Python 3.13
+- Django 6
+- Django Channels
+- PostgreSQL 16
+- Redis 7
+- Daphne
+- Nginx
+- Stripe
+- Cloudinary
+- Google OAuth
+- Docker and Docker Compose
+
+**Local URL:**
+
+```text
+http://localhost
+```
+
+**Useful commands:**
+
+```bash
+docker compose exec backend-daphne python manage.py migrate
+docker compose exec backend-daphne python manage.py createsuperuser
+docker compose exec backend-daphne python manage.py test
+```
 
 </details>
 
 </td>
 <td width="50%" valign="top">
 
-### 🔹 S7 Partners
+### 🔹 Django S7 Partners
 
 **Partner Self-Quotation & Order Management Portal**
 
 Django-based partner portal where commercial partners can browse enabled products, generate self-quotations, preview automatic pricing, submit orders, manage stock, and receive email notifications after staff review.
 
 <p>
-  <a href="https://github.com/FrancoSoilan-DEV/s7-partners">
+  <a href="https://github.com/FrancoSoilan-DEV/Django-s7-partners">
     <img src="https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
@@ -140,7 +174,8 @@ Self-quotation · Pricing rules · Order approvals · Stock tracking · Email no
 **Run locally:**
 
 ```bash
-git clone https://github.com/FrancoSoilan-DEV/s7-partners.git
+git clone https://github.com/FrancoSoilan-DEV/Django-s7-partners.git
+cd Django-s7-partners
 docker compose -f docker-compose.dev.yml up --build
 ```
 
@@ -196,6 +231,78 @@ docker compose -f docker-compose.dev.yml up --build
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### 🔹 Django SWAP
+
+**Internal Business Management System**
+
+Docker-ready Django internal management system for business operations, role-based modules, inventory, backups, gatehouse records, technical service, Excel exports, and PDF reports.
+
+<p>
+  <a href="https://github.com/FrancoSoilan-DEV/Django-swap">
+    <img src="https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+**Focus:**  
+Business workflows · Role-based access · Inventory · Backups · Technical service · Reports
+
+**Run locally:**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/Django-swap.git
+cd Django-swap
+docker compose up --build
+docker compose exec web sh scripts/docker-init.sh
+```
+
+<details>
+  <summary><strong>View project details</strong></summary>
+
+<br>
+
+**What it demonstrates:**
+
+- Modular Django project architecture
+- PostgreSQL-backed relational database structure
+- Docker and Docker Compose local setup
+- Role-based access using Django groups
+- Custom initialization script for repeatable setup
+- Static files handled with WhiteNoise
+- Initial data seeding through Django management commands
+- Redis service included in Docker environment
+- Excel and PDF export workflows
+- Multiple operational modules inside one system
+
+**Main modules included:**
+
+- Authentication and role-based redirection
+- Human Resources / TTHH
+- IT / Informatica
+- Gatehouse / Porteria
+- Technician panel / Tecnico
+- Technical Service / Servicio Tecnico
+- Weekly backup control
+- Backup history
+- Inventory management
+- Equipment management
+- Maintenance scheduling
+- Entry and exit records
+- Excel exports
+- PDF exports
+
+**Main setup command:**
+
+```bash
+docker compose exec web sh scripts/docker-init.sh
+```
+
+This command applies migrations, loads required initial data, creates default users/groups/statuses, and collects static files.
+
+</details>
+
+</td>
 <td width="50%" valign="top">
 
 ### 🔹 FastAPI Vet Software
@@ -275,6 +382,8 @@ docker compose -f docker/docker-compose.yml exec api python /code/docker/speed.p
 </details>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🔹 Flask Lightning
@@ -358,6 +467,39 @@ docker compose logs web
 </details>
 
 </td>
+<td width="50%" valign="top">
+
+### 🧪 More Backend Projects
+
+**Continuously improving my backend portfolio**
+
+I keep building public backend projects focused on practical workflows, reproducible Docker environments, clean documentation, and real-world business use cases.
+
+<img src="https://img.shields.io/badge/Status-Always%20Building-blue?style=for-the-badge" />
+
+**Focus:**  
+APIs · Django systems · FastAPI services · Automation · Data workflows · Docker
+
+<details>
+  <summary><strong>View project direction</strong></summary>
+
+<br>
+
+**Project areas I am exploring:**
+
+- Backend APIs with FastAPI and Django
+- Business management systems
+- Real-time applications with WebSockets
+- Inventory and stock workflows
+- Authentication and role-based access
+- External API integrations
+- Reporting and data export tools
+- Dockerized development environments
+- Production-like project structures
+
+</details>
+
+</td>
 </tr>
 </table>
 
@@ -365,20 +507,22 @@ docker compose logs web
 
 ## 💼 Experience Highlights
 
-I have worked on internal business systems, backend APIs, external API integrations, and business modules focused on real operational needs:
+I have worked on internal business systems, backend APIs, real-time workflows, external API integrations, and business modules focused on real operational needs:
 
-- Designed relational database structures for **asset, inventory, backup, employee, partner, order, stock, consultation, medication, diagnosis, and service tracking**
-- Developed internal systems using **Django**, forms, templates, class-based views, function-based views, permissions, and administrative workflows
+- Designed relational database structures for **asset, inventory, backup, employee, partner, order, stock, consultation, medication, diagnosis, restaurant table, product, payment, and service tracking**
+- Developed internal systems using **Django**, forms, templates, class-based views, function-based views, permissions, groups, and administrative workflows
+- Built real-time Django workflows using **Django Channels**, **Redis**, WebSockets, ASGI, and role-based dashboards
 - Built API-driven backend workflows using **FastAPI**, SQLAlchemy, Pydantic, routers, services, schemas, and role-based access
 - Built Flask-based tools for **external API integration, data search, filtering, visualization, and CSV export**
 - Built partner-facing workflows for **self-quotation, order submission, pricing previews, stock management, and order history**
 - Implemented pricing logic involving **client types, quantity-based multiplicators, special user multiplicators, discounts, regions, and currencies**
+- Implemented payment-related workflows using **Stripe PaymentIntent** and backend payment records
 - Implemented business rules for **technical service management**, including status control, payment tracking, and historical reporting
 - Built workflows for **employee gate access control**, check-in/check-out records, and historical tracking
 - Created modules for **weekly backup management**, including backup states, weekly reset logic, and duplicate prevention
 - Worked on **inventory and equipment management**, including equipment categories, maintenance calendars, and status tracking
-- Organized backend logic across models, views, templates, forms, utilities, APIs, services, schemas, and management commands
-- Worked with data consistency, validations, authentication, protected workflows, dashboards, analytics, external APIs, and internal reporting needs
+- Organized backend logic across models, views, templates, forms, utilities, APIs, services, schemas, consumers, and management commands
+- Worked with data consistency, validations, authentication, protected workflows, dashboards, analytics, WebSockets, external APIs, and internal reporting needs
 
 ---
 
@@ -397,6 +541,7 @@ I have worked on internal business systems, backend APIs, external API integrati
 - Python
 - Django
 - Django REST Framework
+- Django Channels
 - FastAPI
 - Flask
 - REST API development
@@ -421,6 +566,7 @@ I have worked on internal business systems, backend APIs, external API integrati
 - Relational database design
 - Data modeling
 - Query optimization basics
+- Redis channel layer for WebSockets
 - Cache usage basics
 
 </td>
@@ -443,6 +589,7 @@ I have worked on internal business systems, backend APIs, external API integrati
 - Bash basics
 - Linux basics
 - Gunicorn
+- Daphne
 - Nginx
 - Environment configuration with `.env`
 
@@ -463,8 +610,10 @@ I have worked on internal business systems, backend APIs, external API integrati
 - Argon2 password hashing
 - Role-based access control
 - Swagger / OpenAPI documentation
+- WebSocket consumers
 - External API integration
 - CSV export workflows
+- Stripe payment workflows
 
 </td>
 </tr>
@@ -480,16 +629,17 @@ I am focused on building backend projects with practices closer to real producti
 - Environment-based configuration using `.env` files
 - PostgreSQL-backed application design
 - Structured backend architecture for maintainability
-- Clear separation of models, views, routers, schemas, services, forms, APIs, business rules, and configuration
+- Clear separation of models, views, routers, schemas, services, forms, APIs, consumers, business rules, and configuration
 - Custom Django management commands for repeatable setup
 - Alembic migrations for FastAPI/SQLAlchemy projects
 - Initial data seeding for predictable local environments
 - API testing and validation with **Postman** and Swagger docs
 - Authentication, permissions, groups, roles, and protected workflows
-- Gunicorn/Nginx and Uvicorn/Nginx deployment flows
-- Static files handling with WhiteNoise
+- Gunicorn/Nginx, Uvicorn/Nginx, and Daphne/Nginx deployment flows
+- Static files handling with WhiteNoise or shared Docker volumes
 - Public repository safety with `.env.example` and secret isolation
 - External API proxying to keep credentials server-side
+- Real-time communication using WebSockets and Redis channel layers
 - Git-based collaboration using **Git, GitHub, and GitLab**
 
 ---
@@ -513,6 +663,7 @@ I am especially interested in:
 ## 📚 Currently Learning
 
 - Advanced Django and FastAPI development
+- Django Channels and real-time backend workflows
 - API design and authentication best practices
 - Docker-based development and deployment workflows
 - Scalable database structures
@@ -523,9 +674,10 @@ I am especially interested in:
 ## 🛠️ What I Like to Build
 
 - REST APIs and backend systems
+- Real-time web applications
 - Admin dashboards and partner portals
 - Authentication and role-based workflows
-- Inventory, stock, quotation, and management systems
+- Inventory, stock, quotation, ordering, and management systems
 - External API integrations and data tools
 - Dockerized web platforms with real-world business use cases
 
