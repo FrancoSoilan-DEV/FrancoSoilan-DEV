@@ -21,6 +21,16 @@
 
 ---
 
+## ⚡ Quick Proof
+
+- Built **5+ backend systems** with real business workflows.
+- Developed **real-time applications** using Django Channels, Redis, WebSockets, and ASGI.
+- Built **role-based REST APIs** with FastAPI, JWT authentication, refresh token rotation, and PostgreSQL.
+- Created **Dockerized environments** for reproducible local testing.
+- Worked with **pricing logic, stock management, payments, reports, dashboards, and protected workflows**.
+
+---
+
 ## 🚀 What I Build
 
 Built multiple production-like systems including:
@@ -59,7 +69,7 @@ I am actively looking for **remote opportunities as a Junior Backend Developer**
 
 **Python · Django · FastAPI · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
 
-My goal is to contribute to real-world backend systems while growing through production-oriented development practices.
+Open to remote opportunities and ready to contribute to production backend systems.
 
 ---
 
