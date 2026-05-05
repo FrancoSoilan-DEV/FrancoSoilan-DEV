@@ -61,10 +61,18 @@ Most of them are designed to be **reproducible locally using Docker**, with clea
   <tr>
     <td width="50%" valign="top">
 
-### 🍔 [Django Burgers System](https://github.com/FrancoSoilan-DEV/Django-Burgers-System)
+### 🍔 <a href="https://github.com/FrancoSoilan-DEV/Django-Burgers-System"><u>Django Burgers System</u></a>
 
 **Tech:** Django · Channels · Redis · PostgreSQL · Stripe · Docker · Nginx  
-**Run locally:**
+**Run:** `docker compose up --build`  
+**Type:** Real-time restaurant management platform
+
+<details>
+  <summary><strong>View details</strong></summary>
+
+<br>
+
+**Repository**
 
 ```bash
 git clone https://github.com/FrancoSoilan-DEV/Django-Burgers-System.git
@@ -72,14 +80,7 @@ cd Django-Burgers-System
 docker compose up --build
 ```
 
-<details>
-  <summary><strong>View details</strong></summary>
-
-<br>
-
-Real-time restaurant management platform with client, waiter, kitchen, and manager workflows.
-
-**Highlights:**
+**Highlights**
 
 - Built real-time order workflows using Django Channels, Redis, WebSockets, and ASGI.
 - Implemented role-based dashboards for clients, waiters, kitchen staff, and managers.
@@ -92,10 +93,18 @@ Real-time restaurant management platform with client, waiter, kitchen, and manag
 </td>
 <td width="50%" valign="top">
 
-### 🤝 [Django S7 Partners](https://github.com/FrancoSoilan-DEV/Django-s7-partners)
+### 🤝 <a href="https://github.com/FrancoSoilan-DEV/Django-s7-partners"><u>Django S7 Partners</u></a>
 
 **Tech:** Django · DRF · PostgreSQL · Docker · Nginx · Cloudinary · i18n  
-**Run locally:**
+**Run:** `docker compose -f docker-compose.dev.yml up --build`  
+**Type:** Partner self-quotation and order portal
+
+<details>
+  <summary><strong>View details</strong></summary>
+
+<br>
+
+**Repository**
 
 ```bash
 git clone https://github.com/FrancoSoilan-DEV/Django-s7-partners.git
@@ -103,14 +112,7 @@ cd Django-s7-partners
 docker compose -f docker-compose.dev.yml up --build
 ```
 
-<details>
-  <summary><strong>View details</strong></summary>
-
-<br>
-
-Partner self-quotation and order management portal for commercial users.
-
-**Highlights:**
+**Highlights**
 
 - Built partner-facing workflows for catalog browsing, self-quotation, order submission, and order history.
 - Implemented pricing logic with client types, quantity multiplicators, special user multiplicators, regions, and currencies.
@@ -125,10 +127,18 @@ Partner self-quotation and order management portal for commercial users.
 <tr>
 <td width="50%" valign="top">
 
-### 🏢 [Django SWAP](https://github.com/FrancoSoilan-DEV/Django-swap)
+### 🏢 <a href="https://github.com/FrancoSoilan-DEV/Django-swap"><u>Django SWAP</u></a>
 
 **Tech:** Django · PostgreSQL · Redis · Docker · Gunicorn · WhiteNoise  
-**Run locally:**
+**Run:** `docker compose up --build` + init script  
+**Type:** Internal business management system
+
+<details>
+  <summary><strong>View details</strong></summary>
+
+<br>
+
+**Repository**
 
 ```bash
 git clone https://github.com/FrancoSoilan-DEV/Django-swap.git
@@ -137,14 +147,7 @@ docker compose up --build
 docker compose exec web sh scripts/docker-init.sh
 ```
 
-<details>
-  <summary><strong>View details</strong></summary>
-
-<br>
-
-Internal business management system for multiple operational areas.
-
-**Highlights:**
+**Highlights**
 
 - Built role-based modules for HR, IT, gatehouse, technicians, and technical service.
 - Implemented inventory, equipment, maintenance, backup, entry/exit, and technical work workflows.
@@ -157,10 +160,18 @@ Internal business management system for multiple operational areas.
 </td>
 <td width="50%" valign="top">
 
-### 🐾 [FastAPI Vet Software](https://github.com/FrancoSoilan-DEV/FastAPI-vet-software)
+### 🐾 <a href="https://github.com/FrancoSoilan-DEV/FastAPI-vet-software"><u>FastAPI Vet Software</u></a>
 
 **Tech:** FastAPI · PostgreSQL · SQLAlchemy · Alembic · JWT · Docker · Nginx  
-**Run locally:**
+**Run:** `docker compose -f docker/docker-compose.yml up --build`  
+**Type:** Role-based veterinary clinic REST API
+
+<details>
+  <summary><strong>View details</strong></summary>
+
+<br>
+
+**Repository**
 
 ```bash
 git clone https://github.com/FrancoSoilan-DEV/FastAPI-vet-software.git
@@ -168,14 +179,7 @@ cd FastAPI-vet-software
 docker compose -f docker/docker-compose.yml up --build
 ```
 
-<details>
-  <summary><strong>View details</strong></summary>
-
-<br>
-
-Role-based REST API for veterinary clinic management.
-
-**Highlights:**
+**Highlights**
 
 - Built a structured FastAPI backend with routers, services, schemas, models, and database layers.
 - Implemented secure authentication with JWT, refresh token rotation, Argon2 hashing, and token versioning.
@@ -190,10 +194,18 @@ Role-based REST API for veterinary clinic management.
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ [Flask Lightning](https://github.com/FrancoSoilan-DEV/Flask-Lightning)
+### ⚡ <a href="https://github.com/FrancoSoilan-DEV/Flask-Lightning"><u>Flask Lightning</u></a>
 
 **Tech:** Flask · Weatherbit API · Docker · OpenStreetMap · JavaScript · CSV  
-**Run locally:**
+**Run:** `docker compose up --build`  
+**Type:** Lightning strike data tracker
+
+<details>
+  <summary><strong>View details</strong></summary>
+
+<br>
+
+**Repository**
 
 ```bash
 git clone https://github.com/FrancoSoilan-DEV/Flask-Lightning.git
@@ -201,14 +213,7 @@ cd Flask-Lightning
 docker compose up --build
 ```
 
-<details>
-  <summary><strong>View details</strong></summary>
-
-<br>
-
-Single-page Flask app for searching real lightning strike data.
-
-**Highlights:**
+**Highlights**
 
 - Built a Flask proxy between the browser and the Weatherbit API.
 - Kept API key handling server-side.
@@ -224,7 +229,8 @@ Single-page Flask app for searching real lightning strike data.
 ### 🧪 More Backend Projects
 
 **Tech:** Django · FastAPI · Flask · PostgreSQL · Docker · APIs  
-**Status:** Always building and improving.
+**Status:** Always building and improving  
+**Focus:** Real-world backend workflows
 
 <details>
   <summary><strong>View direction</strong></summary>
@@ -252,26 +258,26 @@ Project areas I continue exploring:
 
 ## 💼 Experience Highlights
 
-I have worked on backend systems that combine **data modeling, business rules, authentication, reporting, APIs, and operational workflows**.
+I build backend systems around **data modeling, business rules, authentication, APIs, reporting, and operational workflows**.
 
 <table>
   <tr>
     <td width="50%" valign="top">
 
-### Backend Systems
+### Systems & Data
 
 - Designed relational models for inventories, orders, users, services, stock, payments, and operational records.
-- Built Django systems with role-based modules, protected views, forms, dashboards, reports, and exports.
-- Organized backend logic across models, views, services, forms, APIs, consumers, and management commands.
+- Built Django systems with role-based modules, protected views, dashboards, reports, and exports.
+- Organized backend logic across models, views, services, APIs, consumers, and management commands.
 
 </td>
 <td width="50%" valign="top">
 
-### APIs & Real-time Workflows
+### APIs & Real-time
 
 - Built FastAPI backends with routers, schemas, services, SQLAlchemy, Alembic, JWT auth, and role-based access.
 - Implemented real-time Django workflows using Channels, Redis, WebSockets, ASGI, and role-specific dashboards.
-- Created Flask tools for external API integration, server-side proxying, filtering, visualization, and CSV export.
+- Created Flask tools for external API proxying, data filtering, visualization, and CSV export.
 
 </td>
 </tr>
@@ -282,16 +288,16 @@ I have worked on backend systems that combine **data modeling, business rules, a
 
 - Implemented quotation, pricing, stock, payment, backup, service, inventory, and access-control workflows.
 - Worked with discounts, multiplicators, currencies, order states, approval flows, and historical records.
-- Built systems around real business operations instead of isolated demo features.
+- Built systems around real operational processes, not isolated demo features.
 
 </td>
 <td width="50%" valign="top">
 
-### Reliability & Maintainability
+### Reliability
 
-- Applied data validation, protected workflows, repeatable initialization, and environment-based configuration.
+- Applied validation, protected workflows, repeatable initialization, and environment-based configuration.
 - Used Docker-based setups to make projects easier to run, test, and review locally.
-- Focused on clear structure, reproducible setup, and practical documentation.
+- Focused on clean structure, reproducible setup, and practical documentation.
 
 </td>
 </tr>
