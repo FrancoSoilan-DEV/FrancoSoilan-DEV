@@ -12,12 +12,23 @@
 </h3>
 
 <p align="center">
-  <strong>Backend developer building real-world business systems, APIs, real-time workflows, and Dockerized backend platforms.</strong>
+  <strong>Backend developer specialized in building production-like systems with Django, FastAPI, PostgreSQL, Docker, and real-world business workflows.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+PostgreSQL+%7C+Docker;Real-world+Business+Systems;Role-Based+REST+APIs;Real-time+Django+Applications;Always+Learning,+Always+Improving&center=true&width=950&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+PostgreSQL+%7C+Docker;Production-like+Backend+Systems;Role-Based+REST+APIs;Real-time+Django+Applications;Always+Learning,+Always+Improving&center=true&width=950&height=40">
 </p>
+
+---
+
+## 🚀 What I Build
+
+Built multiple production-like systems including:
+
+- **Real-time restaurant platform** with WebSockets, Stripe payments, table workflows, and role-based dashboards.
+- **Partner quotation and order management portal** with pricing rules, stock tracking, approvals, and email notifications.
+- **Role-based REST APIs** with JWT authentication, refresh token rotation, SQLAlchemy, Alembic, and Docker.
+- **Internal business management systems** with inventory, backups, technical service, reports, and reproducible setup.
 
 ---
 
@@ -52,10 +63,27 @@ My goal is to contribute to real-world backend systems while growing through pro
 
 ---
 
+## 🧪 How to Test My Projects
+
+All main projects are designed to be **reproducible locally using Docker**.
+
+```bash
+docker compose up --build
+```
+
+Each repository includes, when applicable:
+
+- Step-by-step setup instructions.
+- `.env.example` or documented environment configuration.
+- Docker-based local development.
+- Initial data seeding or setup commands.
+- Ready-to-test local workflows without needing a deployed demo.
+
+---
+
 ## 🚀 Projects
 
-A compact overview of my main backend projects.  
-Most of them are designed to be **reproducible locally using Docker**, with clear setup commands and production-like structure.
+A compact overview of my main backend projects.
 
 <table>
   <tr>
@@ -264,20 +292,20 @@ I build backend systems around **data modeling, business rules, authentication, 
   <tr>
     <td width="50%" valign="top">
 
-### Systems & Data
+### Backend Systems
 
-- Designed relational models for inventories, orders, users, services, stock, payments, and operational records.
-- Built Django systems with role-based modules, protected views, dashboards, reports, and exports.
-- Organized backend logic across models, views, services, APIs, consumers, and management commands.
+- Django systems with role-based modules, dashboards, reports, exports, and protected workflows.
+- Relational models for inventories, orders, users, services, stock, payments, and operational records.
+- Backend logic organized across models, views, services, APIs, consumers, and management commands.
 
 </td>
 <td width="50%" valign="top">
 
 ### APIs & Real-time
 
-- Built FastAPI backends with routers, schemas, services, SQLAlchemy, Alembic, JWT auth, and role-based access.
-- Implemented real-time Django workflows using Channels, Redis, WebSockets, ASGI, and role-specific dashboards.
-- Created Flask tools for external API proxying, data filtering, visualization, and CSV export.
+- FastAPI backends with routers, schemas, services, SQLAlchemy, Alembic, JWT auth, and role-based access.
+- Real-time Django workflows using Channels, Redis, WebSockets, ASGI, and role-specific dashboards.
+- Flask tools for external API proxying, data filtering, visualization, and CSV export.
 
 </td>
 </tr>
@@ -286,18 +314,18 @@ I build backend systems around **data modeling, business rules, authentication, 
 
 ### Business Logic
 
-- Implemented quotation, pricing, stock, payment, backup, service, inventory, and access-control workflows.
-- Worked with discounts, multiplicators, currencies, order states, approval flows, and historical records.
-- Built systems around real operational processes, not isolated demo features.
+- Quotation, pricing, stock, payment, backup, service, inventory, and access-control workflows.
+- Discounts, multiplicators, currencies, order states, approval flows, and historical records.
+- Systems built around real operational processes instead of isolated demo features.
 
 </td>
 <td width="50%" valign="top">
 
 ### Reliability
 
-- Applied validation, protected workflows, repeatable initialization, and environment-based configuration.
-- Used Docker-based setups to make projects easier to run, test, and review locally.
-- Focused on clean structure, reproducible setup, and practical documentation.
+- Validation, protected workflows, repeatable initialization, and environment-based configuration.
+- Docker-based setups for local execution, testing, and technical review.
+- Clean structure, reproducible setup, and practical documentation.
 
 </td>
 </tr>
@@ -402,42 +430,44 @@ I build backend systems around **data modeling, business rules, authentication, 
 
 ## 🧩 Engineering Practices
 
+I focus on backend projects that are **structured, reproducible, secure, and easy to review locally**.
+
 <table>
   <tr>
     <td width="50%" valign="top">
 
-### Architecture & Structure
+### Architecture
 
-- Modular Django apps and service-oriented FastAPI structure.
-- Clear separation of models, views, routers, schemas, services, forms, consumers, and configuration.
-- Business logic organized for maintainability, not only for functionality.
+- Modular Django apps.
+- Service-oriented FastAPI structure.
+- Clear separation of models, views, routers, schemas, services, consumers, and configuration.
 
 </td>
 <td width="50%" valign="top">
 
-### Reproducible Environments
+### Reproducibility
 
-- Docker and Docker Compose for local development.
-- `.env` based configuration and safe `.env.example` documentation.
-- Initial data seeding and setup scripts for predictable environments.
+- Docker and Docker Compose setup.
+- `.env` based configuration.
+- Setup scripts, initial data seeding, and documented local workflows.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Data & Security
+### Security & Data
 
 - PostgreSQL-backed application design.
-- Authentication, permissions, groups, roles, and protected workflows.
+- Authentication, permissions, roles, groups, and protected workflows.
 - Secret isolation, server-side API proxying, and public repository safety.
 
 </td>
 <td width="50%" valign="top">
 
-### Deployment-oriented Setup
+### Deployment Mindset
 
-- Gunicorn/Nginx, Uvicorn/Nginx, and Daphne/Nginx deployment flows.
+- Gunicorn/Nginx, Uvicorn/Nginx, and Daphne/Nginx flows.
 - WhiteNoise or shared Docker volumes for static files.
 - API validation with Postman, Swagger/OpenAPI, and framework-level tooling.
 
