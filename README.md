@@ -12,11 +12,11 @@
 </h3>
 
 <p align="center">
-  <strong>Backend developer building real-world business systems, partner portals, and API-driven platforms with Django, FastAPI, PostgreSQL, Docker, and clean backend workflows.</strong>
+  <strong>Backend developer building real-world business systems, partner portals, API-driven platforms, and Dockerized backend tools with clean, maintainable workflows.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+PostgreSQL+%7C+Docker;Business+Management+Systems;Partner+Self-Quotation+Platforms;Role-Based+REST+APIs;Always+Learning,+Always+Improving&center=true&width=950&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+PostgreSQL+%7C+Docker;Business+Management+Systems;Partner+Self-Quotation+Platforms;Role-Based+REST+APIs;Flask+API+Integrations;Always+Learning,+Always+Improving&center=true&width=950&height=40">
 </p>
 
 ---
@@ -32,9 +32,9 @@
 
 I'm **Franco Jeremias Soilan Lopez**, a Computer Science student and backend-focused web developer.
 
-I build **practical, database-driven systems** using **Python, Django, FastAPI, PostgreSQL, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
+I build **practical, database-driven systems** using **Python, Django, FastAPI, Flask, PostgreSQL, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
 
-My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows. I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, and solving real operational problems**.
+My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows. I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, integrating external services, and solving real operational problems**.
 
 Currently, I am studying **Bachelor's Degree in Computer Science with an emphasis in Systems Analysis** at the **National University of Asunción**, Faculty of Polytechnic.
 
@@ -56,7 +56,7 @@ My goal is to contribute to real-world backend systems while growing through pro
 
 A compact overview of the systems I have built, adapted, or prepared as public backend projects.
 
-These projects are designed to be **reproducible locally using Docker**, with clear setup commands, environment-based configuration, and production-like backend structure.
+These projects are designed to be **reproducible locally using Docker**, with clear setup commands, environment-based configuration, external API integration, and production-like backend structure.
 
 <table>
   <tr>
@@ -277,45 +277,83 @@ docker compose -f docker/docker-compose.yml exec api python /code/docker/speed.p
 </td>
 <td width="50%" valign="top">
 
-### 🧾 Inventory & Backup System
+### 🔹 Flask Lightning
 
-**Asset and backup tracking workflow**
+**Lightning Strike Data Tracker**
 
-System focused on managing IT assets, equipment records, backup states, and historical tracking.
+Single-page Flask web application that searches real lightning strike data through the **Weatherbit API**, displays results in a table, and exports them as CSV.
 
-<img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" />
+<p>
+  <a href="https://github.com/FrancoSoilan-DEV/Flask-Lightning">
+    <img src="https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 **Focus:**  
-Inventory · Backups · Equipment · PostgreSQL · Internal workflows
+Flask · Weatherbit API · OpenStreetMap · Docker · CSV export · API proxy
+
+**Run locally:**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/Flask-Lightning.git
+cd Flask-Lightning
+docker compose up --build
+```
 
 <details>
   <summary><strong>View project details</strong></summary>
 
 <br>
 
-**Technical focus:**
+**What it demonstrates:**
 
-- Relational database design for assets and equipment
-- Backup state tracking
-- Weekly backup workflow logic
-- Duplicate prevention rules
-- Administrative views and forms
-- Historical records
-- Structured backend logic for internal operations
+- Flask backend acting as a proxy between the browser and Weatherbit API
+- Server-side API key handling
+- Real-time lightning search using latitude, longitude, radius, and minutes back
+- Historical lightning search using date ranges
+- OpenStreetMap iframe integration for location reference
+- Coordinate selector with city presets and manual latitude/longitude input
+- Results table with lightning timestamp, coordinates, and distance
+- Summary statistics for total strikes, closest strike, and farthest strike
+- Progress bar for multi-day historical queries
+- CSV export from frontend results
+- Dockerized local development environment
 
-**Planned public version:**
+**Main features:**
 
-`inventory-management-api`
+- Real-time lightning search up to 45 minutes back
+- Historical lightning search from supported Weatherbit dates
+- Configurable search radius up to 75 km
+- Weatherbit API integration
+- OpenStreetMap visual reference
+- CSV export
+- Single-page frontend with HTML, CSS, and JavaScript
+- Flask debug mode with auto-reload through Docker volumes
 
-The public version will focus on a cleaner API-based structure with:
+**Main technologies:**
 
-- Django or FastAPI backend
-- PostgreSQL database
-- Docker Compose setup
-- Authentication
-- CRUD operations
-- API documentation
-- Clean README and setup guide
+- Python 3.11
+- Flask 3.0.3
+- Requests
+- Docker
+- Docker Compose
+- Weatherbit API v2.0
+- OpenStreetMap
+- HTML, CSS, and JavaScript
+
+**Local URL:**
+
+```text
+http://localhost:5000
+```
+
+**Useful commands:**
+
+```bash
+docker compose up
+docker compose down
+docker compose logs web
+```
 
 </details>
 
@@ -327,11 +365,12 @@ The public version will focus on a cleaner API-based structure with:
 
 ## 💼 Experience Highlights
 
-I have worked on internal business systems, backend APIs, and business modules focused on real operational needs:
+I have worked on internal business systems, backend APIs, external API integrations, and business modules focused on real operational needs:
 
 - Designed relational database structures for **asset, inventory, backup, employee, partner, order, stock, consultation, medication, diagnosis, and service tracking**
 - Developed internal systems using **Django**, forms, templates, class-based views, function-based views, permissions, and administrative workflows
 - Built API-driven backend workflows using **FastAPI**, SQLAlchemy, Pydantic, routers, services, schemas, and role-based access
+- Built Flask-based tools for **external API integration, data search, filtering, visualization, and CSV export**
 - Built partner-facing workflows for **self-quotation, order submission, pricing previews, stock management, and order history**
 - Implemented pricing logic involving **client types, quantity-based multiplicators, special user multiplicators, discounts, regions, and currencies**
 - Implemented business rules for **technical service management**, including status control, payment tracking, and historical reporting
@@ -339,7 +378,7 @@ I have worked on internal business systems, backend APIs, and business modules f
 - Created modules for **weekly backup management**, including backup states, weekly reset logic, and duplicate prevention
 - Worked on **inventory and equipment management**, including equipment categories, maintenance calendars, and status tracking
 - Organized backend logic across models, views, templates, forms, utilities, APIs, services, schemas, and management commands
-- Worked with data consistency, validations, authentication, protected workflows, dashboards, analytics, and internal reporting needs
+- Worked with data consistency, validations, authentication, protected workflows, dashboards, analytics, external APIs, and internal reporting needs
 
 ---
 
@@ -413,7 +452,7 @@ I have worked on internal business systems, backend APIs, and business modules f
 ### Backend Framework Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=fastapi,django,postgres,docker" />
+  <img src="https://skillicons.dev/icons?i=fastapi,django,flask,postgres,docker" />
 </p>
 
 - SQLAlchemy
@@ -424,6 +463,8 @@ I have worked on internal business systems, backend APIs, and business modules f
 - Argon2 password hashing
 - Role-based access control
 - Swagger / OpenAPI documentation
+- External API integration
+- CSV export workflows
 
 </td>
 </tr>
@@ -448,13 +489,14 @@ I am focused on building backend projects with practices closer to real producti
 - Gunicorn/Nginx and Uvicorn/Nginx deployment flows
 - Static files handling with WhiteNoise
 - Public repository safety with `.env.example` and secret isolation
+- External API proxying to keep credentials server-side
 - Git-based collaboration using **Git, GitHub, and GitLab**
 
 ---
 
 ## 🧠 Backend Mindset
 
-I enjoy backend development because it involves designing systems, structuring data, and solving real-world operational problems.
+I enjoy backend development because it involves designing systems, structuring data, integrating services, and solving real-world operational problems.
 
 I am especially interested in:
 
@@ -484,6 +526,7 @@ I am especially interested in:
 - Admin dashboards and partner portals
 - Authentication and role-based workflows
 - Inventory, stock, quotation, and management systems
+- External API integrations and data tools
 - Dockerized web platforms with real-world business use cases
 
 ---
