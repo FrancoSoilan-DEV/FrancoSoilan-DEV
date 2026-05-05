@@ -525,20 +525,23 @@ I focus on building software that is:
 ## 🌐 Connect With Me
 
 <p align="left">
-  <a href="mailto:TU_EMAIL_AQUI">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:francosoilanwork@gmail.com">
+    <img src="https://img.shields.io/badge/Email-francosoilanwork@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-
-  <a href="https://www.linkedin.com/in/TU_LINKEDIN_AQUI">
-    <img src="https://img.shields.io/badge/LinkedIn-Franco%20Soilan-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://glittering-meringue-bce383.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Site-7c9ef8?style=for-the-badge&logo=netlify&logoColor=white" />
   </a>
-
   <a href="https://github.com/FrancoSoilan-DEV">
-    <img src="https://img.shields.io/badge/GitHub-FrancoSoilan--DEV-black?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-FrancoSoilan--DEV-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-
-  <a href="https://gitlab.com/TU_USUARIO_DE_GITLAB">
-    <img src="https://img.shields.io/badge/GitLab-Franco%20Soilan-orange?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <a href="https://www.youtube.com/@FrancoSoilanDev">
+    <img src="https://img.shields.io/badge/YouTube-FrancoSoilanDev-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/franco_soilan/">
+    <img src="https://img.shields.io/badge/Instagram-franco__soilan-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://wa.me/595982686373">
+    <img src="https://img.shields.io/badge/WhatsApp-%2B595%20982%20686%20373-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </p>
 
