@@ -65,7 +65,7 @@ Currently, I am studying **Bachelor's Degree in Computer Science with an emphasi
 
 ## 🎯 Current Goal
 
-I am actively looking for **remote opportunities as a Junior Backend Developer**, especially with:
+I am actively looking for **remote opportunities as a Backend Developer**, especially with:
 
 **Python · Django · FastAPI · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
 
