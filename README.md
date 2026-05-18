@@ -36,6 +36,7 @@
 Built multiple production-like systems including:
 
 - **Real-time restaurant platform** with WebSockets, Stripe payments, table workflows, and role-based dashboards.
+- **Multi-branch inventory management system** with real-time stock updates, inter-branch transfers, and JWT auth.
 - **Partner quotation and order management portal** with pricing rules, stock tracking, approvals, and email notifications.
 - **Role-based REST APIs** with JWT authentication, refresh token rotation, SQLAlchemy, Alembic, and Docker.
 - **Internal business management systems** with inventory, backups, technical service, reports, and reproducible setup.
@@ -89,11 +90,11 @@ Each repository includes, when applicable:
 - Initial data seeding or setup commands.
 - Ready-to-test local workflows without needing a deployed demo.
 
+> 📺 Want to see the projects in action before running them locally? Check out my **[YouTube channel](https://www.youtube.com/@FrancoSoilanDev)** for beta previews and walkthroughs.
+
 ---
 
-## 🚀 Projects
-
-A compact overview of my main backend projects.
+## 🚀 Featured Projects
 
 <table>
   <tr>
@@ -103,7 +104,8 @@ A compact overview of my main backend projects.
 
 **Tech:** Django · Channels · Redis · PostgreSQL · Stripe · Docker · Nginx  
 **Run:** `docker compose up --build`  
-**Type:** Real-time restaurant management platform
+**Type:** Real-time restaurant management platform  
+**Preview:** [▶ Watch on YouTube](https://www.youtube.com/watch?v=XlfOE74Rb2g&t=4s)
 
 <details>
   <summary><strong>View details</strong></summary>
@@ -129,13 +131,71 @@ docker compose up --build
 </details>
 
 </td>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
+
+### 📦 <a href="https://github.com/FrancoSoilan-DEV/stockflow"><u>Stockflow</u></a>
+
+**Tech:** FastAPI · Vue 3 · PostgreSQL · WebSockets · JWT · Docker  
+**Run:** `make up-b` → `make migrate` → `make seed`  
+**Type:** Multi-branch inventory management system  
+**Preview:** [▶ Watch on YouTube](https://www.youtube.com/watch?v=IgxghIRCrqA)
+
+<details>
+  <summary><strong>View details</strong></summary>
+
+<br>
+
+**Repository**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/stockflow.git
+cd stockflow
+make up-b
+make migrate
+make seed
+```
+
+Open at `http://localhost:5173`
+
+Default credentials:
+
+| Email | Password | Role |
+|---|---|---|
+| admin@stockflow.com | admin123 | Admin |
+| juan@stockflow.com | juan123 | Staff |
+
+**Highlights**
+
+- Built a full-stack system with FastAPI backend and Vue 3 frontend, fully Dockerized.
+- Implemented JWT authentication with role-based access control (admin / staff).
+- Real-time stock updates, private chat, and user presence via native WebSockets.
+- Inter-branch stock transfer request system with admin approval workflow.
+- Point-of-sale sales recording with automatic stock deduction and price snapshots.
+- SQLAlchemy 2.0 async, Alembic migrations, Pinia state management, Tailwind CSS v4.
+
+</details>
+
+</td>
+  </tr>
+</table>
+
+---
+
+<details>
+<summary><strong>📂 More Projects</strong></summary>
+
+<br>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
 ### 🤝 <a href="https://github.com/FrancoSoilan-DEV/Django-s7-partners"><u>Django S7 Partners</u></a>
 
 **Tech:** Django · DRF · PostgreSQL · Docker · Nginx · Cloudinary · i18n  
 **Run:** `docker compose -f docker-compose.dev.yml up --build`  
-**Type:** Partner self-quotation and order portal
+**Type:** Partner self-quotation and order portal  
+**Preview:** [▶ Watch on YouTube](https://www.youtube.com/watch?v=uTcYgSbRcPY&t=56s)
 
 <details>
   <summary><strong>View details</strong></summary>
@@ -161,15 +221,14 @@ docker compose -f docker-compose.dev.yml up --build
 </details>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
 ### 🏢 <a href="https://github.com/FrancoSoilan-DEV/Django-swap"><u>Django SWAP</u></a>
 
 **Tech:** Django · PostgreSQL · Redis · Docker · Gunicorn · WhiteNoise  
 **Run:** `docker compose up --build` + init script  
-**Type:** Internal business management system
+**Type:** Internal business management system  
+**Preview:** [▶ Watch on YouTube](https://www.youtube.com/watch?v=SDcmgBUWU2s)
 
 <details>
   <summary><strong>View details</strong></summary>
@@ -196,7 +255,9 @@ docker compose exec web sh scripts/docker-init.sh
 </details>
 
 </td>
-<td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
 ### 🐾 <a href="https://github.com/FrancoSoilan-DEV/FastAPI-vet-software"><u>FastAPI Vet Software</u></a>
 
@@ -228,9 +289,7 @@ docker compose -f docker/docker-compose.yml up --build
 </details>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
 ### ⚡ <a href="https://github.com/FrancoSoilan-DEV/Flask-Lightning"><u>Flask Lightning</u></a>
 
@@ -262,35 +321,10 @@ docker compose up --build
 </details>
 
 </td>
-<td width="50%" valign="top">
-
-### 🧪 More Backend Projects
-
-**Tech:** Django · FastAPI · Flask · PostgreSQL · Docker · APIs  
-**Status:** Always building and improving  
-**Focus:** Real-world backend workflows
-
-<details>
-  <summary><strong>View direction</strong></summary>
-
-<br>
-
-Project areas I continue exploring:
-
-- Backend APIs
-- Business management systems
-- Real-time applications
-- Inventory and stock workflows
-- Role-based access control
-- External API integrations
-- Reporting and data export tools
-- Dockerized development environments
+  </tr>
+</table>
 
 </details>
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -309,7 +343,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 - Backend logic organized across models, views, services, APIs, consumers, and management commands.
 
 </td>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
 ### APIs & Real-time
 
@@ -318,9 +352,9 @@ I build backend systems around **data modeling, business rules, authentication, 
 - Flask tools for external API proxying, data filtering, visualization, and CSV export.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
 ### Business Logic
 
@@ -329,7 +363,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 - Systems built around real operational processes instead of isolated demo features.
 
 </td>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
 ### Reliability
 
@@ -338,7 +372,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 - Clean structure, reproducible setup, and practical documentation.
 
 </td>
-</tr>
+  </tr>
 </table>
 
 ---
@@ -369,7 +403,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 - API testing with Postman
 
 </td>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
 ### Databases & Cache
 
@@ -387,9 +421,9 @@ I build backend systems around **data modeling, business rules, authentication, 
 - Cache usage basics
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
 ### DevOps & Tools
 
@@ -411,7 +445,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 - Environment configuration with `.env`
 
 </td>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
 ### Backend Framework Tools
 
@@ -433,7 +467,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 - Stripe payment workflows
 
 </td>
-</tr>
+  </tr>
 </table>
 
 ---
@@ -453,7 +487,7 @@ I focus on backend projects that are **structured, reproducible, secure, and eas
 - Clear separation of models, views, routers, schemas, services, consumers, and configuration.
 
 </td>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
 ### Reproducibility
 
@@ -462,9 +496,9 @@ I focus on backend projects that are **structured, reproducible, secure, and eas
 - Setup scripts, initial data seeding, and documented local workflows.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
 ### Security & Data
 
@@ -473,7 +507,7 @@ I focus on backend projects that are **structured, reproducible, secure, and eas
 - Secret isolation, server-side API proxying, and public repository safety.
 
 </td>
-<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
 ### Deployment Mindset
 
@@ -482,7 +516,7 @@ I focus on backend projects that are **structured, reproducible, secure, and eas
 - API validation with Postman, Swagger/OpenAPI, and framework-level tooling.
 
 </td>
-</tr>
+  </tr>
 </table>
 
 ---
