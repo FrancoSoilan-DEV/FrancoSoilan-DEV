@@ -8,24 +8,25 @@
 </h1>
 
 <h3 align="center">
-  Backend Developer | Django • FastAPI • PostgreSQL • Docker
+  Backend Developer | Django • FastAPI • Express.js • PostgreSQL • Docker
 </h3>
 
 <p align="center">
-  <strong>Backend developer specialized in building production-like systems with Django, FastAPI, PostgreSQL, Docker, and real-world business workflows.</strong>
+  <strong>Backend developer specialized in building production-like systems with Django, FastAPI, Express.js, PostgreSQL, Docker, and real-world business workflows.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+PostgreSQL+%7C+Docker;Production-like+Backend+Systems;Role-Based+REST+APIs;Real-time+Django+Applications;Always+Learning,+Always+Improving&center=true&width=950&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+Express.js+%7C+PostgreSQL+%7C+Docker;Production-like+Backend+Systems;Role-Based+REST+APIs;Real-time+Django+Applications;Always+Learning,+Always+Improving&center=true&width=950&height=40">
 </p>
 
 ---
 
 ## ⚡ Quick Proof
 
-- Built **5+ backend systems** with real business workflows.
+- Built **6+ backend systems** with real business workflows.
 - Developed **real-time applications** using Django Channels, Redis, WebSockets, and ASGI.
 - Built **role-based REST APIs** with FastAPI, JWT authentication, refresh token rotation, and PostgreSQL.
+- Built a **fullstack logistics system** with Express.js, TypeScript, Prisma, EJS, and Docker from scratch.
 - Created **Dockerized environments** for reproducible local testing.
 - Worked with **pricing logic, stock management, payments, reports, dashboards, and protected workflows**.
 
@@ -38,6 +39,7 @@ Built multiple production-like systems including:
 - **Real-time restaurant platform** with WebSockets, Stripe payments, table workflows, and role-based dashboards.
 - **Multi-branch inventory management system** with real-time stock updates, inter-branch transfers, and JWT auth.
 - **Partner quotation and order management portal** with pricing rules, stock tracking, approvals, and email notifications.
+- **Fullstack logistics and transport management system** with Express.js, TypeScript, Prisma, automatic cost calculation, and EJS frontend.
 - **Role-based REST APIs** with JWT authentication, refresh token rotation, SQLAlchemy, Alembic, and Docker.
 - **Internal business management systems** with inventory, backups, technical service, reports, and reproducible setup.
 
@@ -54,7 +56,7 @@ Built multiple production-like systems including:
 
 I'm **Franco Jeremias Soilan Lopez**, a Computer Science student and backend-focused web developer.
 
-I build **practical, database-driven systems** using **Python, Django, FastAPI, Flask, PostgreSQL, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
+I build **practical, database-driven systems** using **Python, Django, FastAPI, Flask, Node.js, TypeScript, Express.js, PostgreSQL, Prisma, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
 
 My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows. I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, integrating services, and solving real operational problems**.
 
@@ -68,7 +70,7 @@ Currently, I am studying **Bachelor's Degree in Computer Science with an emphasi
 
 I am actively looking for **remote opportunities as a Backend Developer**, especially with:
 
-**Python · Django · FastAPI · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
+**Python · Django · FastAPI · Node.js · TypeScript · Express.js · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
 
 Open to remote opportunities and ready to contribute to production backend systems.
 
@@ -177,17 +179,57 @@ Default credentials:
 
 </td>
   </tr>
-</table>
+  <tr>
+    <td width="50%" valign="top">
 
----
+### 🚛 <a href="https://github.com/FrancoSoilan-DEV/vi-trucking"><u>VI-Trucking</u></a>
+
+**Tech:** Express.js · TypeScript · Prisma · PostgreSQL · EJS · JWT · Docker  
+**Run:** `docker compose up --build` → `npx prisma migrate dev --name init` → `npm run seed`  
+**Type:** Fullstack logistics and transport management system  
+**Preview:** [▶ Watch on YouTube](https://www.youtube.com/watch?v=hM_EGe7JYCY)
 
 <details>
-<summary><strong>📂 More Projects</strong></summary>
+  <summary><strong>View details</strong></summary>
 
 <br>
 
-<table>
-  <tr>
+**Repository**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/vi-trucking.git
+cd vi-trucking
+docker compose up --build
+npx prisma migrate dev --name init
+npm run seed
+```
+
+Open at `http://localhost:3000`
+
+Default credentials:
+
+| Email | Password | Role |
+|---|---|---|
+| admin@vitrucking.com | admin123 | Superadmin |
+| carlos@vitrucking.com | admin123 | Admin |
+| roberto@vitrucking.com | driver123 | Driver |
+| ana@exportaciones.com | client123 | Client |
+
+**Highlights**
+
+- Built a fullstack system from scratch using **Express.js and TypeScript** — first Node.js project after experience with Django and FastAPI.
+- Implemented **JWT cookie-based authentication** with four roles: Superadmin, Admin, Driver, and Client.
+- Automatic **trip cost calculation** via configurable tariff matching by country, distance, and cargo type (`finalCost = baseAmount × multiplier + fixedAmount`).
+- Multi-branch architecture — drivers and vehicles belong to specific branches.
+- Vehicle fleet tracking with km, total trips, maintenance dates, and license expiry.
+- Client company tracking with total orders, trucks sent, and revenue generated.
+- **Dual layer architecture** — REST API (JSON) and server-rendered EJS frontend sharing the same services.
+- Prisma ORM with PostgreSQL, layered architecture (config → database → utils → middlewares → services → controllers → routers).
+- Sidebar dashboard layout built with plain CSS and CSS variables, no frameworks.
+
+</details>
+
+</td>
     <td width="50%" valign="top">
 
 ### 🤝 <a href="https://github.com/FrancoSoilan-DEV/Django-s7-partners"><u>Django S7 Partners</u></a>
@@ -221,6 +263,18 @@ docker compose -f docker-compose.dev.yml up --build
 </details>
 
 </td>
+  </tr>
+</table>
+
+---
+
+<details>
+<summary><strong>📂 More Projects</strong></summary>
+
+<br>
+
+<table>
+  <tr>
     <td width="50%" valign="top">
 
 ### 🏢 <a href="https://github.com/FrancoSoilan-DEV/Django-swap"><u>Django SWAP</u></a>
@@ -255,8 +309,6 @@ docker compose exec web sh scripts/docker-init.sh
 </details>
 
 </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
 
 ### 🐾 <a href="https://github.com/FrancoSoilan-DEV/FastAPI-vet-software"><u>FastAPI Vet Software</u></a>
@@ -289,6 +341,8 @@ docker compose -f docker/docker-compose.yml up --build
 </details>
 
 </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
 
 ### ⚡ <a href="https://github.com/FrancoSoilan-DEV/Flask-Lightning"><u>Flask Lightning</u></a>
@@ -321,6 +375,8 @@ docker compose up --build
 </details>
 
 </td>
+    <td width="50%" valign="top">
+    </td>
   </tr>
 </table>
 
@@ -339,6 +395,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 ### Backend Systems
 
 - Django systems with role-based modules, dashboards, reports, exports, and protected workflows.
+- Express.js + TypeScript fullstack systems with layered architecture, EJS frontend, and REST API.
 - Relational models for inventories, orders, users, services, stock, payments, and operational records.
 - Backend logic organized across models, views, services, APIs, consumers, and management commands.
 
@@ -350,6 +407,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 - FastAPI backends with routers, schemas, services, SQLAlchemy, Alembic, JWT auth, and role-based access.
 - Real-time Django workflows using Channels, Redis, WebSockets, ASGI, and role-specific dashboards.
 - Flask tools for external API proxying, data filtering, visualization, and CSV export.
+- Express.js dual-layer backends serving both REST API and server-rendered EJS pages.
 
 </td>
   </tr>
@@ -359,6 +417,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 ### Business Logic
 
 - Quotation, pricing, stock, payment, backup, service, inventory, and access-control workflows.
+- Automatic tariff matching and cost calculation based on configurable rules.
 - Discounts, multiplicators, currencies, order states, approval flows, and historical records.
 - Systems built around real operational processes instead of isolated demo features.
 
@@ -386,20 +445,16 @@ I build backend systems around **data modeling, business rules, authentication, 
 ### Backend Development
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask" />
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask,nodejs,ts,express" />
 </p>
 
-- Python
-- Django
-- Django REST Framework
-- Django Channels
-- FastAPI
-- Flask
-- REST API development
-- Backend architecture
+- Python · Django · Django REST Framework · Django Channels
+- FastAPI · Flask
+- Node.js · TypeScript · Express.js
+- REST API development · Backend architecture
 - Business logic implementation
 - Authentication and authorization
-- Django management commands
+- Prisma ORM · SQLAlchemy · Alembic
 - API testing with Postman
 
 </td>
@@ -411,11 +466,8 @@ I build backend systems around **data modeling, business rules, authentication, 
   <img src="https://skillicons.dev/icons?i=postgres,mysql,redis" />
 </p>
 
-- PostgreSQL
-- MySQL
-- Redis
-- Relational database design
-- Data modeling
+- PostgreSQL · MySQL · Redis
+- Relational database design · Data modeling
 - Query optimization basics
 - Redis channel layer for WebSockets
 - Cache usage basics
@@ -431,40 +483,29 @@ I build backend systems around **data modeling, business rules, authentication, 
   <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,postman,bash,linux,nginx" />
 </p>
 
-- Docker
-- Docker Compose
-- Git
-- GitHub
-- GitLab
-- Postman
-- Bash basics
-- Linux basics
-- Gunicorn
-- Daphne
-- Nginx
+- Docker · Docker Compose
+- Git · GitHub · GitLab
+- Postman · Bash basics · Linux basics
+- Gunicorn · Daphne · Nginx
 - Environment configuration with `.env`
 
 </td>
     <td width="50%" valign="top">
 
-### Backend Framework Tools
+### Framework Tools
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=fastapi,django,flask,postgres,docker" />
 </p>
 
-- SQLAlchemy
-- Alembic migrations
-- Pydantic schemas
-- JWT authentication
-- Refresh token rotation
-- Argon2 password hashing
+- SQLAlchemy · Alembic · Prisma
+- Pydantic schemas · JWT authentication
+- Refresh token rotation · Argon2 · bcrypt
 - Role-based access control
 - Swagger / OpenAPI documentation
 - WebSocket consumers
-- External API integration
-- CSV export workflows
-- Stripe payment workflows
+- EJS server-rendered templates
+- External API integration · CSV export · Stripe
 
 </td>
   </tr>
@@ -484,6 +525,7 @@ I focus on backend projects that are **structured, reproducible, secure, and eas
 
 - Modular Django apps.
 - Service-oriented FastAPI structure.
+- Layered Express.js architecture (config → database → utils → middlewares → services → controllers → routers).
 - Clear separation of models, views, routers, schemas, services, consumers, and configuration.
 
 </td>
@@ -537,6 +579,7 @@ I focus on building software that is:
 ## 📚 Currently Learning
 
 - Advanced Django and FastAPI development
+- Node.js and TypeScript ecosystem (Express.js, Prisma)
 - Django Channels and real-time backend workflows
 - API design and authentication best practices
 - Docker-based development and deployment workflows
@@ -550,7 +593,7 @@ I focus on building software that is:
 - Real-time web applications
 - Admin dashboards and partner portals
 - Authentication and role-based workflows
-- Inventory, stock, quotation, ordering, and management systems
+- Inventory, stock, quotation, ordering, logistics, and management systems
 - External API integrations and data tools
 - Dockerized web platforms with real-world business use cases
 
