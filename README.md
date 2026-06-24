@@ -102,7 +102,7 @@ Each repository includes, when applicable:
   <tr>
     <td width="50%" valign="top">
 
-### 🍔 <a href="https://github.com/FrancoSoilan-DEV/Django-Burgers-System"><u>Django Burgers System</u></a>
+### <img src="https://skillicons.dev/icons?i=django" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/Django-Burgers-System"><u>Django Burgers System</u></a>
 
 **Tech:** Django · Channels · Redis · PostgreSQL · Stripe · Docker · Nginx  
 **Run:** `docker compose up --build`  
@@ -135,7 +135,7 @@ docker compose up --build
 </td>
     <td width="50%" valign="top">
 
-### 📦 <a href="https://github.com/FrancoSoilan-DEV/stockflow"><u>Stockflow</u></a>
+### <img src="https://skillicons.dev/icons?i=fastapi" width="24"/> <img src="https://skillicons.dev/icons?i=vue" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/stockflow"><u>Stockflow</u></a>
 
 **Tech:** FastAPI · Vue 3 · PostgreSQL · WebSockets · JWT · Docker  
 **Run:** `make up-b` → `make migrate` → `make seed`  
@@ -182,7 +182,7 @@ Default credentials:
   <tr>
     <td width="50%" valign="top">
 
-### 🚛 <a href="https://github.com/FrancoSoilan-DEV/vi-trucking"><u>VI-Trucking</u></a>
+### <img src="https://skillicons.dev/icons?i=express" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/vi-trucking"><u>VI-Trucking</u></a>
 
 **Tech:** Express.js · TypeScript · Prisma · PostgreSQL · EJS · JWT · Docker  
 **Run:** `docker compose up --build` → `npx prisma migrate dev --name init` → `npm run seed`  
@@ -231,8 +231,22 @@ Default credentials:
 
 </td>
     <td width="50%" valign="top">
+    </td>
+  </tr>
+</table>
 
-### 🤝 <a href="https://github.com/FrancoSoilan-DEV/Django-s7-partners"><u>Django S7 Partners</u></a>
+---
+
+<details>
+<summary><strong>📂 More Projects</strong></summary>
+
+<br>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### <img src="https://skillicons.dev/icons?i=django" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/Django-s7-partners"><u>Django S7 Partners</u></a>
 
 **Tech:** Django · DRF · PostgreSQL · Docker · Nginx · Cloudinary · i18n  
 **Run:** `docker compose -f docker-compose.dev.yml up --build`  
@@ -263,21 +277,9 @@ docker compose -f docker-compose.dev.yml up --build
 </details>
 
 </td>
-  </tr>
-</table>
-
----
-
-<details>
-<summary><strong>📂 More Projects</strong></summary>
-
-<br>
-
-<table>
-  <tr>
     <td width="50%" valign="top">
 
-### 🏢 <a href="https://github.com/FrancoSoilan-DEV/Django-swap"><u>Django SWAP</u></a>
+### <img src="https://skillicons.dev/icons?i=django" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/Django-swap"><u>Django SWAP</u></a>
 
 **Tech:** Django · PostgreSQL · Redis · Docker · Gunicorn · WhiteNoise  
 **Run:** `docker compose up --build` + init script  
@@ -309,9 +311,11 @@ docker compose exec web sh scripts/docker-init.sh
 </details>
 
 </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
 
-### 🐾 <a href="https://github.com/FrancoSoilan-DEV/FastAPI-vet-software"><u>FastAPI Vet Software</u></a>
+### <img src="https://skillicons.dev/icons?i=fastapi" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/FastAPI-vet-software"><u>FastAPI Vet Software</u></a>
 
 **Tech:** FastAPI · PostgreSQL · SQLAlchemy · Alembic · JWT · Docker · Nginx  
 **Run:** `docker compose -f docker/docker-compose.yml up --build`  
@@ -341,11 +345,9 @@ docker compose -f docker/docker-compose.yml up --build
 </details>
 
 </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
 
-### ⚡ <a href="https://github.com/FrancoSoilan-DEV/Flask-Lightning"><u>Flask Lightning</u></a>
+### <img src="https://skillicons.dev/icons?i=flask" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/Flask-Lightning"><u>Flask Lightning</u></a>
 
 **Tech:** Flask · Weatherbit API · Docker · OpenStreetMap · JavaScript · CSV  
 **Run:** `docker compose up --build`  
@@ -375,8 +377,6 @@ docker compose up --build
 </details>
 
 </td>
-    <td width="50%" valign="top">
-    </td>
   </tr>
 </table>
 
@@ -495,7 +495,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 ### Framework Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=fastapi,django,flask,postgres,docker" />
+  <img src="https://skillicons.dev/icons?i=fastapi,django,flask,express,postgres,docker" />
 </p>
 
 - SQLAlchemy · Alembic · Prisma
