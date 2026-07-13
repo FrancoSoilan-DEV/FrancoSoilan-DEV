@@ -186,53 +186,6 @@ docker compose up --build
   <tr>
     <td width="50%" valign="top">
 
-### <img src="https://skillicons.dev/icons?i=fastapi" width="24"/> <img src="https://skillicons.dev/icons?i=vue" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/stockflow"><u>Stockflow</u></a>
-
-**Tech:** FastAPI · Vue 3 · PostgreSQL · WebSockets · JWT · Docker  
-**Run:** `make up-b` → `make migrate` → `make seed`  
-**Type:** Multi-branch inventory management system  
-**Preview:** [▶ Watch on YouTube](https://www.youtube.com/watch?v=IgxghIRCrqA)
-
-<details>
-  <summary><strong>View details</strong></summary>
-
-<br>
-
-**Repository**
-
-```bash
-git clone https://github.com/FrancoSoilan-DEV/stockflow.git
-cd stockflow
-make up-b
-make migrate
-make seed
-```
-
-Open at `http://localhost:5173`
-
-Default credentials:
-
-| Email | Password | Role |
-|---|---|---|
-| admin@stockflow.com | admin123 | Admin |
-| juan@stockflow.com | juan123 | Staff |
-
-**Highlights**
-
-- Built a full-stack system with FastAPI backend and Vue 3 frontend, fully Dockerized.
-- Implemented JWT authentication with role-based access control (admin / staff).
-- Real-time stock updates, private chat, and user presence via native WebSockets.
-- Inter-branch stock transfer request system with admin approval workflow.
-- Point-of-sale sales recording with automatic stock deduction and price snapshots.
-- SQLAlchemy 2.0 async, Alembic migrations, Pinia state management, Tailwind CSS v4.
-
-</details>
-
-</td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
 ### <img src="https://skillicons.dev/icons?i=express" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/vi-trucking"><u>VI-Trucking</u></a>
 
 **Tech:** Express.js · TypeScript · Prisma · PostgreSQL · EJS · JWT · Docker  
@@ -282,7 +235,50 @@ Default credentials:
 
 </td>
     <td width="50%" valign="top">
-    </td>
+
+### <img src="https://skillicons.dev/icons?i=fastapi" width="24"/> <img src="https://skillicons.dev/icons?i=vue" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/stockflow"><u>Stockflow</u></a>
+
+**Tech:** FastAPI · Vue 3 · PostgreSQL · WebSockets · JWT · Docker  
+**Run:** `make up-b` → `make migrate` → `make seed`  
+**Type:** Multi-branch inventory management system  
+**Preview:** [▶ Watch on YouTube](https://www.youtube.com/watch?v=IgxghIRCrqA)
+
+<details>
+  <summary><strong>View details</strong></summary>
+
+<br>
+
+**Repository**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/stockflow.git
+cd stockflow
+make up-b
+make migrate
+make seed
+```
+
+Open at `http://localhost:5173`
+
+Default credentials:
+
+| Email | Password | Role |
+|---|---|---|
+| admin@stockflow.com | admin123 | Admin |
+| juan@stockflow.com | juan123 | Staff |
+
+**Highlights**
+
+- Built a full-stack system with FastAPI backend and Vue 3 frontend, fully Dockerized.
+- Implemented JWT authentication with role-based access control (admin / staff).
+- Real-time stock updates, private chat, and user presence via native WebSockets.
+- Inter-branch stock transfer request system with admin approval workflow.
+- Point-of-sale sales recording with automatic stock deduction and price snapshots.
+- SQLAlchemy 2.0 async, Alembic migrations, Pinia state management, Tailwind CSS v4.
+
+</details>
+
+</td>
   </tr>
 </table>
 
@@ -577,11 +573,12 @@ I focus on backend projects that are **structured, reproducible, secure, and eas
 
 ### Architecture
 
-- Modular Django apps.
-- Service-oriented FastAPI structure.
-- Modular NestJS architecture (modules → controllers → services → guards/strategies).
+- Modular Django apps, organized around models, views, services, consumers, and management commands.
+- Service-oriented FastAPI and Flask structures (routers/proxies → services → schemas → SQLAlchemy/Alembic).
+- Modular NestJS architecture (modules → controllers → services → guards/strategies → Prisma).
 - Layered Express.js architecture (config → database → utils → middlewares → services → controllers → routers).
-- Clear separation of models, views, routers, schemas, services, consumers, and configuration.
+- Vue 3 frontends structured with Composition API, Pinia stores, and Axios API modules, consuming FastAPI/NestJS backends.
+- Clear separation of models, views, routers, schemas, services, consumers, and configuration across every stack.
 
 </td>
     <td width="50%" valign="top">
