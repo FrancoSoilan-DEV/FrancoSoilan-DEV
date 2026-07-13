@@ -8,25 +8,26 @@
 </h1>
 
 <h3 align="center">
-  Backend Developer | Django • FastAPI • Express.js • PostgreSQL • Docker
+  Backend Developer | Django • FastAPI • NestJS • Express.js • PostgreSQL • Docker
 </h3>
 
 <p align="center">
-  <strong>Backend developer specialized in building production-like systems with Django, FastAPI, Express.js, PostgreSQL, Docker, and real-world business workflows.</strong>
+  <strong>Backend developer specialized in building production-like systems with Django, FastAPI, NestJS, Express.js, PostgreSQL, Docker, and real-world business workflows.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+Express.js+%7C+PostgreSQL+%7C+Docker;Production-like+Backend+Systems;Role-Based+REST+APIs;Real-time+Django+Applications;Always+Learning,+Always+Improving&center=true&width=950&height=40">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend+Development+Enthusiast;Django+%7C+FastAPI+%7C+NestJS+%7C+Express.js+%7C+PostgreSQL;Production-like+Backend+Systems;Role-Based+REST+APIs;Real-time+Django+Applications;NestJS+%2B+Prisma+%2B+AI+Agents;Always+Learning,+Always+Improving&center=true&width=950&height=40">
 </p>
 
 ---
 
 ## ⚡ Quick Proof
 
-- Built **6+ backend systems** with real business workflows.
+- Built **7+ backend systems** with real business workflows.
 - Developed **real-time applications** using Django Channels, Redis, WebSockets, and ASGI.
 - Built **role-based REST APIs** with FastAPI, JWT authentication, refresh token rotation, and PostgreSQL.
 - Built a **fullstack logistics system** with Express.js, TypeScript, Prisma, EJS, and Docker from scratch.
+- Built a **NestJS maritime fleet management platform** with role-based portals, Prisma, and an AI agent using tool calling.
 - Created **Dockerized environments** for reproducible local testing.
 - Worked with **pricing logic, stock management, payments, reports, dashboards, and protected workflows**.
 
@@ -40,6 +41,7 @@ Built multiple production-like systems including:
 - **Multi-branch inventory management system** with real-time stock updates, inter-branch transfers, and JWT auth.
 - **Partner quotation and order management portal** with pricing rules, stock tracking, approvals, and email notifications.
 - **Fullstack logistics and transport management system** with Express.js, TypeScript, Prisma, automatic cost calculation, and EJS frontend.
+- **Maritime fleet management platform** built with NestJS, Prisma, PostgreSQL, and a Groq-powered AI agent with tool calling.
 - **Role-based REST APIs** with JWT authentication, refresh token rotation, SQLAlchemy, Alembic, and Docker.
 - **Internal business management systems** with inventory, backups, technical service, reports, and reproducible setup.
 
@@ -56,7 +58,7 @@ Built multiple production-like systems including:
 
 I'm **Franco Jeremias Soilan Lopez**, a Computer Science student and backend-focused web developer.
 
-I build **practical, database-driven systems** using **Python, Django, FastAPI, Flask, Node.js, TypeScript, Express.js, PostgreSQL, Prisma, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
+I build **practical, database-driven systems** using **Python, Django, FastAPI, Flask, Node.js, TypeScript, NestJS, Express.js, PostgreSQL, Prisma, Redis, Docker, Docker Compose, REST APIs, Git, GitHub, and GitLab**.
 
 My main interest is creating backend solutions that are reliable, maintainable, and useful in real business workflows. I enjoy backend development because it involves **designing systems, structuring data, organizing business logic, integrating services, and solving real operational problems**.
 
@@ -70,7 +72,7 @@ Currently, I am studying **Bachelor's Degree in Computer Science with an emphasi
 
 I am actively looking for **remote opportunities as a Backend Developer**, especially with:
 
-**Python · Django · FastAPI · Node.js · TypeScript · Express.js · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
+**Python · Django · FastAPI · Node.js · TypeScript · NestJS · Express.js · PostgreSQL · Redis · Docker · Docker Compose · REST APIs**
 
 Open to remote opportunities and ready to contribute to production backend systems.
 
@@ -100,6 +102,53 @@ Each repository includes, when applicable:
 
 <table>
   <tr>
+    <td width="50%" valign="top">
+
+### <img src="https://skillicons.dev/icons?i=nestjs" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/ships-system"><u>Ships System</u></a>
+
+**Tech:** NestJS · TypeScript · Prisma · PostgreSQL · Groq AI · Docker  
+**Run:** `docker compose up --build` → `npx prisma db push` → `npx prisma db seed`  
+**Type:** Maritime fleet management platform  
+**Preview:** [▶ Watch on YouTube](https://www.youtube.com/watch?v=PE-0fHkedaw)
+
+<details>
+  <summary><strong>View details</strong></summary>
+
+<br>
+
+**Repository**
+
+```bash
+git clone https://github.com/FrancoSoilan-DEV/ships-system.git
+cd ships-system
+docker compose up --build -d
+docker compose exec app npx prisma db push
+docker compose exec app npx prisma db seed
+```
+
+Open at `http://localhost:3000`
+
+Default credentials:
+
+| Email | Password | Role |
+|---|---|---|
+| superadmin@ships.com | super123 | Superadmin |
+| admin@ships.com | admin123 | Admin |
+| captain@ships.com | captain123 | Captain |
+| client@ships.com | client123 | Client |
+
+**Highlights**
+
+- Built a NestJS project from scratch, focused on understanding *why* the framework structures things the way it does (modules, providers, guards, strategies), coming from Django/FastAPI/Express.js.
+- Implemented **JWT authentication** with access + refresh token rotation and route-level `@Roles()` guards across 4 role-based portals.
+- Integrated an **AI agent (Groq / Llama 3.3 70B)** with native tool calling — quotes voyages, lists ships, self-registers clients, and escalates to a human.
+- Built an **automatic tariff-based pricing engine** shared between the AI agent and the real booking endpoint.
+- Modeled a relational schema with **13 Prisma models** covering users, ships, crew, voyages, cargo, tariffs, maintenance, and an AI chat/escalation system.
+- Implemented a **bilingual (ES/EN) i18n system** across landing, auth, and all 4 portals.
+
+</details>
+
+</td>
     <td width="50%" valign="top">
 
 ### <img src="https://skillicons.dev/icons?i=django" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/Django-Burgers-System"><u>Django Burgers System</u></a>
@@ -133,6 +182,8 @@ docker compose up --build
 </details>
 
 </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
 
 ### <img src="https://skillicons.dev/icons?i=fastapi" width="24"/> <img src="https://skillicons.dev/icons?i=vue" width="24"/> <a href="https://github.com/FrancoSoilan-DEV/stockflow"><u>Stockflow</u></a>
@@ -395,6 +446,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 ### Backend Systems
 
 - Django systems with role-based modules, dashboards, reports, exports, and protected workflows.
+- NestJS systems with modular architecture, guards, strategies, and Prisma-backed relational models.
 - Express.js + TypeScript fullstack systems with layered architecture, EJS frontend, and REST API.
 - Relational models for inventories, orders, users, services, stock, payments, and operational records.
 - Backend logic organized across models, views, services, APIs, consumers, and management commands.
@@ -405,6 +457,7 @@ I build backend systems around **data modeling, business rules, authentication, 
 ### APIs & Real-time
 
 - FastAPI backends with routers, schemas, services, SQLAlchemy, Alembic, JWT auth, and role-based access.
+- NestJS REST APIs with Passport strategies, `@UseGuards()`, and `@Roles()` decorators for role-based access.
 - Real-time Django workflows using Channels, Redis, WebSockets, ASGI, and role-specific dashboards.
 - Flask tools for external API proxying, data filtering, visualization, and CSV export.
 - Express.js dual-layer backends serving both REST API and server-rendered EJS pages.
@@ -424,11 +477,11 @@ I build backend systems around **data modeling, business rules, authentication, 
 </td>
     <td width="50%" valign="top">
 
-### Reliability
+### AI Integration
 
-- Validation, protected workflows, repeatable initialization, and environment-based configuration.
-- Docker-based setups for local execution, testing, and technical review.
-- Clean structure, reproducible setup, and practical documentation.
+- AI agents with native tool calling (Groq SDK) — quoting, data lookups, account creation, and human escalation.
+- Separate system prompts and tool sets for public vs. authenticated AI endpoints to avoid context bleed.
+- AI-driven workflows wired directly into the same business logic used by the regular REST endpoints.
 
 </td>
   </tr>
@@ -445,12 +498,12 @@ I build backend systems around **data modeling, business rules, authentication, 
 ### Backend Development
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask,nodejs,ts,express" />
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask,nodejs,ts,nestjs,express" />
 </p>
 
 - Python · Django · Django REST Framework · Django Channels
 - FastAPI · Flask
-- Node.js · TypeScript · Express.js
+- Node.js · TypeScript · **NestJS** · Express.js
 - REST API development · Backend architecture
 - Business logic implementation
 - Authentication and authorization
@@ -495,13 +548,14 @@ I build backend systems around **data modeling, business rules, authentication, 
 ### Framework Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=fastapi,django,flask,express,postgres,docker" />
+  <img src="https://skillicons.dev/icons?i=fastapi,django,nestjs,flask,express,postgres,docker" />
 </p>
 
 - SQLAlchemy · Alembic · Prisma
 - Pydantic schemas · JWT authentication
 - Refresh token rotation · Argon2 · bcrypt
 - Role-based access control
+- NestJS modules, providers, guards, and Passport strategies
 - Swagger / OpenAPI documentation
 - WebSocket consumers
 - EJS server-rendered templates
@@ -525,6 +579,7 @@ I focus on backend projects that are **structured, reproducible, secure, and eas
 
 - Modular Django apps.
 - Service-oriented FastAPI structure.
+- Modular NestJS architecture (modules → controllers → services → guards/strategies).
 - Layered Express.js architecture (config → database → utils → middlewares → services → controllers → routers).
 - Clear separation of models, views, routers, schemas, services, consumers, and configuration.
 
@@ -579,7 +634,8 @@ I focus on building software that is:
 ## 📚 Currently Learning
 
 - Advanced Django and FastAPI development
-- Node.js and TypeScript ecosystem (Express.js, Prisma)
+- **NestJS** in depth — modules, providers, guards, custom decorators, and Passport-based strategies
+- Node.js and TypeScript ecosystem (NestJS, Express.js, Prisma)
 - Django Channels and real-time backend workflows
 - API design and authentication best practices
 - Docker-based development and deployment workflows
@@ -594,6 +650,7 @@ I focus on building software that is:
 - Admin dashboards and partner portals
 - Authentication and role-based workflows
 - Inventory, stock, quotation, ordering, logistics, and management systems
+- AI-powered agents with tool calling wired into real business logic
 - External API integrations and data tools
 - Dockerized web platforms with real-world business use cases
 
